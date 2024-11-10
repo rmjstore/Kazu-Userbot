@@ -1,21 +1,21 @@
 {
   "name": "𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot",
-  "description": " from [Kazu-Userbot] ",
+  "description": " What? @blue ",
   "logo": "https://telegra.ph/file/f4700c25168954f9b0382.jpg",
   "keywords": ["telegram", "userbot", "bluefloyd-Userbot", "modular", "python"],
-  "repository": "https://github.com/ionmusic/Kazu-Userbot",
+  "repository": "https://github.com/bluefloyd24/Kazu-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
-      "description": "Dapatkan API KEY di Grup » https://t.me/kazusupportgrp » Lalu ketik /get api atau di web my.telegram.org Masukan yg APP ID Telegram",
+      "description": "Dapatkan API KEY di my.telegram.org",
       "required": true
     },
     "API_HASH": {
-      "description": "Dapatkan API Hash di Grup »  https://t.me/kazusupportgrp » Lalu ketik /get api atau di web my.telegram.org",
+      "description": "Dapatkan API Hash di my.telegram.org",
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di Grup »  https://t.me/kazusupportgrp » Lalu ketik /get string",
+      "description": "Dapatkan String Session di @strgen_bot",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -23,7 +23,7 @@
       "required": true
     },
     "HEROKU_API_KEY": {
-      "description": "Ambil Heroku API KEY mu disini » https://dashboard.heroku.com/account",
+      "description": "Ambil Heroku API KEY mu di https://dashboard.heroku.com/account",
       "required": true
     },
     "PM_AUTO_BAN": {
