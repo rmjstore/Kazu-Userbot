@@ -30,7 +30,7 @@ def install_req(cmd: str) -> Tuple[str, str, int, int]:
 
 def git():
     UPSTREAM_REPO = b64decode(
-        "aHR0cHM6Ly9naXRodWIuY29tL2lvbm11c2ljL0thenUtVXNlcmJvdA=="
+        "aHR0cHM6Ly9naXRodWIuY29tL2JsdWVmbG95ZDI0L0thenUtVXNlcmJvdA=="
     ).decode("utf-8")
     try:
         repo = Repo()
