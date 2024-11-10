@@ -4,7 +4,7 @@ import yaml
 import os
 
 # Memuat file YAML
-yaml_path = os.path.join(os.path.dirname(__file__), "id.yml")
+yaml_path = os.path.join(os.path.dirname(__file__), "string/id.yml")
 with open(yaml_path, "r", encoding="utf-8") as file:
     strings = yaml.safe_load(file)
 
