@@ -2,6 +2,7 @@ import os
 import sys
 from os import listdir, path
 from typing import Any, Dict, List, Union
+from bs4 import BeautifulSoup
 
 from AyiinXd import LOGS
 try:
