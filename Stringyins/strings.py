@@ -59,7 +59,6 @@ for file in listdir(strings_folder):
             LOGS.exception(er)
 
 
-def get_string(key: str) -> Any:
 def get_string(key: str, parse_mode: str = "HTML") -> str:
     lang = language[0]
     try:
