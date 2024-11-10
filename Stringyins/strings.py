@@ -59,36 +59,30 @@ for file in listdir(strings_folder):
             LOGS.exception(er)
 
 
-def get_string(key: str, parse_mode: str = "HTML") -> str:
+def get_string(key: str) -> Any:
     lang = language[0]
     try:
-        text = languages[lang][key]
+        return languages[lang][key]
     except KeyError:
         try:
             id_ = languages["id"][key]
             if not Trs:
-                text = id_
+                return id_
+            tr = Trs.translate(id_, lang_tgt=lang).replace("\ N", "\n")
+            if id_.count("{}") != tr.count("{}"):
+                tr = id_
+            if languages.get(lang):
+                languages[lang][key] = tr
             else:
-                tr = Trs.translate(id_, lang_tgt=lang).replace("\\ N", "\n")
-                if id_.count("{}") != tr.count("{}"):
-                    tr = id_
-                if languages.get(lang):
-                    languages[lang][key] = tr
-                else:
-                    languages.update({lang: {key: tr}})
-                text = tr
+                languages.update({lang: {key: tr}})
+            return tr
         except KeyError:
-            text = f"Peringatan: tidak dapat memuat string apa pun dengan kunci `{key}`"
+            return f"Peringatan: tidak dapat memuat string apa pun dengan kunci `{key}`"
+        except TypeError:
+            pass
         except Exception as er:
             LOGS.exception(er)
-            text = languages["id"].get(key) or f"Gagal memuat string bahasa '{key}'"
-
-    # Menangani format HTML jika parse_mode="HTML"
-    if parse_mode == "HTML":
-        text = text.replace("\n", "<br>")  # Contoh: ubah newline menjadi `<br>` untuk HTML
-
-    return text
-
+        return languages["id"].get(key) or f"Gagal memuat string bahasa '{key}'"
 
 
 def get_languages() -> Dict[str, Union[str, List[str]]]:
