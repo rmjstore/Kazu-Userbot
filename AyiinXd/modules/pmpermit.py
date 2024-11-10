@@ -21,7 +21,7 @@ from AyiinXd.events import ayiin_cmd
 from AyiinXd.ayiin import eod, eor
 from Stringyins import get_string
 
-DEF_UNAPPROVED_MSG = (get_string("prmt_1"), parse_mode="HTML")
+DEF_UNAPPROVED_MSG = (get_string("prmt_1"), "HTML")
 
 
 @bot.on(events.NewMessage(incoming=True))
