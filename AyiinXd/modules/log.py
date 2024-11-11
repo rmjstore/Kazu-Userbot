@@ -105,7 +105,7 @@ async def log_tagged_messages(event):
     except Exception as e:
         LOGS.info(str(e))
     messaget = media_type(event)
-    resalt = f"𝗧𝗮𝗴𝘀 𝗠𝗲𝘀𝘀𝗮𝗴𝗲.\n<blockquote>Dari : {_format.htmlmentionuser(nameyins, idyins)}"
+    resalt = f"𝗧𝗮𝗴𝘀 𝗠𝗲𝘀𝘀𝗮𝗴𝗲.\n<blockquote>     Dari : {_format.htmlmentionuser(nameyins, idyins)}"
     if full is not None:
         resalt += f"\n     Grup : <code>{xnxx.title}</code>"
     if messaget is not None:
