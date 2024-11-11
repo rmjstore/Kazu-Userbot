@@ -141,8 +141,8 @@ async def auto_accept(event):
                 if is_approved(event.chat_id) and BOTLOG_CHATID:
                     await event.client.send_message(
                         BOTLOG_CHATID,
-                        "**#AUTO_APPROVED**\n"
-                        + "👤 **User:** "
+                        "𝗔𝘂𝘁𝗼 𝗔𝗽𝗽𝗿𝗼𝘃𝗲𝗱 𝗨𝘀𝗲𝗿\n"
+                        + "     User : "
                         + f"[{chat.first_name}](tg://user?id={chat.id})",
                     )
 
