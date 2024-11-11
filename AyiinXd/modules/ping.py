@@ -54,8 +54,8 @@ async def _(ping):
     duration = (end - start).microseconds / 1000
     user = await ping.client.get_me()
     sleep(3)
-    await reply(
-        f"ping : `%sms`"
+    await ping.reply(
+        f"ping : `{duratuon}%sms`"
         f"uptime : `{uptime}`"
         )
 
