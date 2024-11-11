@@ -40,7 +40,7 @@ async def logaddjoin(yins):
         tmp = yins.added_by
         text = f"📩 **#TAMBAH_LOG\n •** {vcmention(tmp)} **Menambahkan** {vcmention(user)}\n **• Ke Group** {chat}"
     elif yins.user_joined:
-        text = f"📨 **#LOG_GABUNG\n •** [{user.first_name}](tg://user?id={user.id}) **Bergabung\n • Ke Group** {chat}"
+        text = f"𝗟𝗼𝗴 𝗚𝗮𝗯𝘂𝗻𝗴 𝗚𝗿𝘂𝗽.\n     [{user.first_name}](tg://user?id={user.id}) bergabung ke {chat}"
     else:
         return
     await yins.client.send_message(BOTLOG_CHATID, text)
@@ -70,7 +70,7 @@ async def monito_p_m_s(yins):
                     LOG_CHATS_.COUNT = 0
                 LOG_CHATS_.NEWPM = await yins.client.send_message(
                     BOTLOG_CHATID,
-                    f"**💌 #MENERUSKAN #PESAN_BARU**\n** • Dari : **{_format.mentionuser(sender.first_name , sender.id)}\n** • User ID:** `{chat.id}`",
+                    f"𝗠𝗲𝗻𝗲𝗿𝘂𝘀𝗸𝗮𝗻 𝗣𝗲𝘀𝗮𝗻 𝗕𝗮𝗿𝘂\n     Dari : {_format.mentionuser(sender.first_name , sender.id)}\n     User ID: `{chat.id}`",
                 )
             try:
                 if yins.message:
