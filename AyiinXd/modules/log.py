@@ -38,7 +38,7 @@ async def logaddjoin(yins):
         chat = f"[{chat.title}](https://t.me/c/{chat.id}/{yins.action_message.id})"
     if yins.user_added:
         tmp = yins.added_by
-        text = f"📩 **#TAMBAH_LOG\n •** {vcmention(tmp)} **Menambahkan** {vcmention(user)}\n **• Ke Group** {chat}"
+        text = f"𝗗𝗶𝘁𝗮𝗺𝗯𝗮𝗵𝗸𝗮𝗻 𝗸𝗲 𝗚𝗿𝘂𝗽.\n     {vcmention(tmp)} menambahkan {vcmention(user)}\n     Ke Grup : {chat}"
     elif yins.user_joined:
         text = f"𝗟𝗼𝗴 𝗚𝗮𝗯𝘂𝗻𝗴 𝗚𝗿𝘂𝗽.\n     [{user.first_name}](tg://user?id={user.id}) bergabung ke {chat}"
     else:
@@ -63,8 +63,8 @@ async def monito_p_m_s(yins):
                 if LOG_CHATS_.NEWPM:
                     await LOG_CHATS_.NEWPM.edit(
                         LOG_CHATS_.NEWPM.text.replace(
-                            "**💌 #PESAN_BARU**",
-                            f" • `{LOG_CHATS_.COUNT}` **Pesan**",
+                            "𝗣𝗲𝘀𝗮𝗻 𝗕𝗮𝗿𝘂.",
+                            f"     `{LOG_CHATS_.COUNT}` Pesan",
                         )
                     )
                     LOG_CHATS_.COUNT = 0
@@ -107,18 +107,18 @@ async def log_tagged_messages(event):
     messaget = media_type(event)
     resalt = f"𝗧𝗮𝗴𝘀 𝗠𝗲𝘀𝘀𝗮𝗴𝗲.\n<blockquote>Dari : {_format.htmlmentionuser(nameyins, idyins)}"
     if full is not None:
-        resalt += f"\nGrup : <code>{xnxx.title}</code>"
+        resalt += f"\n     Grup : <code>{xnxx.title}</code>"
     if messaget is not None:
-        resalt += f"\nJenis Pesan : <code>{messaget}</code>"
+        resalt += f"\n     Jenis Pesan : <code>{messaget}</code>"
     else:
-        resalt += f"\n👀 <a href = 'https://t.me/c/{xnxx.id}/{event.message.id}'>Lihat Pesan</a>"
-    resalt += f"\nMessage : {event.message.message}</blockquote>"
+        resalt += f"\n     Pesan : <a href = 'https://t.me/c/{xnxx.id}/{event.message.id}'>Lihat Pesan</a>"
+    resalt += f"\n     Message : {event.message.message}</blockquote>"
     await asyncio.sleep(0.5)
     if not event.is_private:
         await event.client.send_message(
             BOTLOG_CHATID,
             resalt,
-            parse_mode="html",
+            parse_mode="HTML",
             link_preview=False,
         )
 
