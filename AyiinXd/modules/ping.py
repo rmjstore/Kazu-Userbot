@@ -56,7 +56,7 @@ async def _(ping):
     sleep(3)
     await ping.reply(
         f"ping : `%sms`\n"
-        f"uptime : `{uptime}`"
+        f"uptime : `{uptime}`" % (duration)
         )
 
 
