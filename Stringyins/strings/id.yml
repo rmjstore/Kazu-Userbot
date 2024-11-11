@@ -604,7 +604,7 @@ pdf_3: "**ERROR: @office2pdf_bot tidak merespon, coba lagi nanti**"
 pdf_4: "**Mohon Reply ke teks apa pun**"
 
 # pmpermit tools
-prmt_1: "𝗣𝗲𝘀𝗮𝗻 𝗼𝘁𝗼𝗺𝗮𝘁𝗶𝘀.\n━━━━━━━━━━━━━━━━━━━━━━━━━Ini adalah pesan otomatis dari 𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot. Spam 5x di chat ini akan otomatis di block oleh bot sebelum disetujui oleh pemilik."
+prmt_1: "𝗣𝗲𝘀𝗮𝗻 𝗼𝘁𝗼𝗺𝗮𝘁𝗶𝘀.\n━━━━━━━━━━━━━━━━━━━━━━━━━\nIni adalah pesan otomatis dari 𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot. Spam 5x di chat ini akan otomatis di block oleh bot sebelum disetujui oleh pemilik."
 prmt_2: "𝗣𝗲𝗿𝗶𝗻𝗴𝗮𝘁𝗮𝗻.\n━━━━━━━━━━━━━━━━━━━━━━━━━\nMaaf Anda Diblokir karna melakukan spam."
 prmt_3: "**Terjadi Error Saat Menghitung Pesan pribadi, Mohon Restart Bot!**"
 prmt_4: "Gagal menghitung PM yang diterima"
