@@ -55,7 +55,7 @@ async def _(ping):
     user = await ping.client.get_me()
     sleep(3)
     await ping.reply(
-        f"ping : `{duratuon}%sms`"
+        f"ping : `{duration}%sms`"
         f"uptime : `{uptime}`"
         )
 
