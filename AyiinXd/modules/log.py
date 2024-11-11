@@ -105,14 +105,14 @@ async def log_tagged_messages(event):
     except Exception as e:
         LOGS.info(str(e))
     messaget = media_type(event)
-    resalt = f"<b>📨 #TAGS #MESSAGE</b>\n<b> • Dari : </b>{_format.htmlmentionuser(nameyins, idyins)}"
+    resalt = f"𝗧𝗮𝗴𝘀 𝗠𝗲𝘀𝘀𝗮𝗴𝗲.\n<blockquote>Dari : {_format.htmlmentionuser(nameyins, idyins)}"
     if full is not None:
-        resalt += f"\n<b> • Grup : </b><code>{xnxx.title}</code>"
+        resalt += f"\nGrup : <code>{xnxx.title}</code>"
     if messaget is not None:
-        resalt += f"\n<b> • Jenis Pesan : </b><code>{messaget}</code>"
+        resalt += f"\nJenis Pesan : <code>{messaget}</code>"
     else:
-        resalt += f"\n<b> • 👀 </b><a href = 'https://t.me/c/{xnxx.id}/{event.message.id}'>Lihat Pesan</a>"
-    resalt += f"\n<b> • Message : </b>{event.message.message}"
+        resalt += f"\n👀 <a href = 'https://t.me/c/{xnxx.id}/{event.message.id}'>Lihat Pesan</a>"
+    resalt += f"\nMessage : {event.message.message}</blockquote>"
     await asyncio.sleep(0.5)
     if not event.is_private:
         await event.client.send_message(
