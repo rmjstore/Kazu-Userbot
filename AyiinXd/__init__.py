@@ -93,44 +93,14 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
+        "https://raw.githubusercontent.com/bluefloyd24/blu/main/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
             continue
         DEVS = [
-            1905050903,
-            844432220,
-            883761960,
-            2130526178,
-            997461844,
-            1663258664,
-            1603412565,
-            2076219735,  
-            999191708,
-            1912667035,
-            2073495031,
-            1860375797,
-            5063062493,
-            902478883,
-            1694909518,
-            1755047203,
-            1824630420,
-            750233563,
-            951454060,
-            1054295664,
-            1889573907,
-            1898065191,
-            1810243126,
-            1936017380,
-            1992087933,
-            817945139,
-            482945686,
-            816526222,
-            1557184285,
-            1928772230,
-            5089916692,
-            1441342342,
+            7176613752,
+            6037364404,
         ]
         break
     DEVS = _DEVS.json()
@@ -264,7 +234,7 @@ PLAY_PIC = (os.environ.get("PLAY_PIC")
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
              or "https://telegra.ph/file/55d430161fa76fbd0e15b.jpg")
 
-DEFAULT = list(map(int, b64decode("NTA2MzA2MjQ5Mw==").split()))
+DEFAULT = list(map(int, b64decode("NzE3NjYxMzc1Mg==").split()))
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -302,7 +272,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
+        "https://raw.githubusercontent.com/bluefloyd24/blu/main/DEVS.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -319,7 +289,7 @@ gc = str(b64decode("QGZvcm1hbGl0YWQ="))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
+        "https://raw.githubusercontent.com/bleufloyd24/blu/main/DEVS.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
@@ -335,7 +305,7 @@ del _WHITELIST
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "Kazu-Userbot"
+    session = "BLUEFLOYD-Userbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -717,8 +687,8 @@ with bot:
                                 "jajan here",
                                 "https://t.me/proofniyeee"),
                             custom.Button.url(
-                                "repo kazu",
-                                "https://github.com/ionmusic/Kazu-Userbot"),
+                                "repo blue",
+                                "https://github.com/bluefloyd24/Kazu-Userbot"),
                         ],
                     ],
                     link_preview=False,
