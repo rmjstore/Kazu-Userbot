@@ -672,22 +672,22 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    title="𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃",
-                    description="𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 | Telethon",
-                    url="https://t.me/kazusupportgrp",
+                    title="whats?",
+                    description="𝗕𝗹𝘂𝗲𝗳𝗹𝗼𝘆𝗱-Userbot",
+                    url="https://t.me/zavril",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗**\n whats wrong???",
+                    text=f"𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗",
                     buttons=[
                         [
                             custom.Button.url(
-                                "jajan here",
+                                "Jajan",
                                 "https://t.me/proofniyeee"),
                             custom.Button.url(
-                                "repo blue",
+                                "Repository",
                                 "https://github.com/bluefloyd24/Kazu-Userbot"),
                         ],
                     ],
@@ -1047,4 +1047,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"KALO BOT LU NGECRASH, KLIK SAVE YANG DI POJOK KANAN BAWAH DAN KIRIM KE @kazusupportgrp » TAG @admin » Info By: Kazu-Userbot {BOT_VER}")
+            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @zavril atau ke @bluetsst. 𝗕𝗹𝘂𝗲𝗳𝗹𝗼𝘆𝗱-Userbot {BOT_VER}")
