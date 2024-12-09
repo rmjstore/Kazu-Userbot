@@ -289,7 +289,7 @@ gc = str(b64decode("QGJsdWV0c3N0"))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/bleufloyd24/blu/main/DEVS.json"
+        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
