@@ -93,7 +93,7 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
+        "https://raw.githubusercontent.com/bluefloyd24/blu/main/DEVS.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
@@ -101,6 +101,9 @@ while 0 < 6:
         DEVS = [
             7176613752,
             6037364404,
+            7053717310,
+            6878107336,
+            1254466650,
         ]
         break
     DEVS = _DEVS.json()
@@ -272,7 +275,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
+        "https://raw.githubusercontent.com/bluefloyd24/blu/main/DEVS.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -289,7 +292,7 @@ gc = str(b64decode("QGJsdWV0c3N0"))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
+        "https://raw.githubusercontent.com/bluefloyd24/blu/main/DEVS.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
