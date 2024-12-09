@@ -17,12 +17,7 @@ from AyiinXd import bot, branch, tgbot
 from AyiinXd.ayiin import ayiin_version as py_ver
 from AyiinXd.ayiin import HOSTED_ON, checking
 
-MSG_ON = """
-𝗔𝗰𝘁𝗶𝘃𝗲.
-     Blue 𝘷𝘦𝘳 - {} •[{}]•
-     Userbot 𝘷𝘦𝘳 - {}
-     Ketik `.ping` untuk cek ubot.
-"""
+MSG_ON = "𝗔𝗰𝘁𝗶𝘃𝗲.\n     Blue 𝘷𝘦𝘳 - {} •[{}]•\n     Userbot 𝘷𝘦𝘳 - {}\n     Ketik `.ping` untuk cek ubot."
 
 
 async def ayiin_userbot_on():
