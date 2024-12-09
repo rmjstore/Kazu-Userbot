@@ -739,14 +739,14 @@ async def on_plug_in_callback_query_handler(event):
                         0,
                         "image/jpeg",
                         []),
-                    text=f"𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗",
+                    text=f"残酷 ──I. 𝗕𝗹𝘂𝗲𝗳𝗹𝗼𝘆𝗱.",
                     buttons=[
                         [
                             custom.Button.url(
-                                "Jajan",
+                                "Old Testie",
                                 "https://t.me/proofniyeee"),
                             custom.Button.url(
-                                "Repository",
+                                "Deploy Ubot",
                                 "https://github.com/bluefloyd24/Kazu-Userbot"),
                         ],
                     ],
