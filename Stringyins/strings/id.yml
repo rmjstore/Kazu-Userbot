@@ -2,8 +2,7 @@ nama: Indonesia
 asli: Indonesia
 
 penulis:
-  - AyiinXd
-  - GrayXz
+  - blu
 
 # constans
 pto_sml: "**Gambar Terlalu Kecil**"
@@ -740,11 +739,11 @@ sostik_2: "`Video Sedang Diproses...`"
 spam_1: "#SPAM\nSpam berhasil dieksekusi di [Pengguna](tg://user?id={}) mengobrol dengan {} kali dengan pesan di bawah"
 spam_2: "#SPAM\nSpam berhasil dieksekusi di {}(`{}`) dengan {} kali dengan pesan di bawah"
 spam_3: "#DELAYSPAM\nDelay spam berhasil dieksekusi di [Pengguna](tg://user?id={}) mengobrol dengan {} kali dengan pesan di bawah ini dengan penundaan {} detik"
-spam_4: "𝗗𝗲𝗹𝗮𝘆𝘀𝗽𝗮𝗺.\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝘴𝘵𝘢𝘵𝘶𝘴: Berhasil\n𝘭𝘱𝘮: {}(`{}`)\n𝘫𝘶𝘮𝘭𝘢𝘩: {} kali dengan pesan di bawah ini\n𝘫𝘶𝘮𝘭𝘢𝘩: {} detik"
+spam_4: "𝗗𝗲𝗹𝗮𝘆𝘀𝗽𝗮𝗺.\n━━━━━━━━━━━━━━━━━━━━━━━━━\     𝘴𝘵𝘢𝘵𝘶𝘴: Berhasil\n     𝘭𝘱𝘮: {}(`{}`)\n     𝘫𝘶𝘮𝘭𝘢𝘩: {} kali dengan pesan di bawah ini\n     𝘫𝘶𝘮𝘭𝘢𝘩: {} detik"
 spam_5: "#SPAM\nSpam berhasil dieksekusi di [Pengguna](tg://user?id={}) mengobrol dengan {} pesan dari \n`{}`"
 spam_6: "#SPAM\nSpam berhasil dieksekusi di {}(`{}`) mengobrol dengan {} pesan dari \n`{}`"
-spam_7: "𝗗𝗲𝗹𝗮𝘆𝘀𝗽𝗮𝗺.\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝘴𝘵𝘢𝘵𝘶𝘴: Berhasil\n𝘭𝘱𝘮: [Pengguna](tg://user?id={})\n𝘥𝘦𝘭𝘢𝘺: {} detik\n𝘫𝘶𝘮𝘭𝘢𝘩: {} pesan \n`{}`"
-spam_8: "𝗗𝗲𝗹𝗮𝘆𝘀𝗽𝗮𝗺.\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝘴𝘵𝘢𝘵𝘶𝘴: Berhasil\n𝘭𝘱𝘮: {}(`{}`)\n𝘥𝘦𝘭𝘢𝘺: {} detik\n𝘫𝘶𝘮𝘭𝘢𝘩: {} pesan \n`{}`"
+spam_7: "𝗗𝗲𝗹𝗮𝘆𝘀𝗽𝗮𝗺.\n━━━━━━━━━━━━━━━━━━━━━━━━━\     𝘴𝘵𝘢𝘵𝘶𝘴: Berhasil\n     𝘭𝘱𝘮: [Pengguna](tg://user?id={})\n     𝘥𝘦𝘭𝘢𝘺: {} detik\n     𝘫𝘶𝘮𝘭𝘢𝘩: {} pesan \n`{}`"
+spam_8: "𝗗𝗲𝗹𝗮𝘆𝘀𝗽𝗮𝗺.\n━━━━━━━━━━━━━━━━━━━━━━━━━\     𝘴𝘵𝘢𝘵𝘶𝘴: Berhasil\n     𝘭𝘱𝘮: {}(`{}`)\n𝘥𝘦𝘭𝘢𝘺: {} detik\n     𝘫𝘶𝘮𝘭𝘢𝘩: {} pesan \n`{}`"
 spam_9: "**Gunakan sintaks yang tepat untuk spam. Ketik** `{}help spam` **bila butuh bantuan.**"
 sspam_1: "**Balas stiker apa pun untuk mengirim semua stiker dalam paket itu**"
 sspam_2: "`Mengambil detail Sticker Pack...`"
