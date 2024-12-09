@@ -876,7 +876,7 @@ tform_1: "`Memutar media Anda...`"
 # updater tools
 upd_1: "Memeriksa pembaruan, harap tunggu...."
 upd_2: "Oops.. Pembaruan tidak dapat dilanjutkan karena beberapa masalah.\n\n**LOGTRACE:**\n"
-upd_3: "𝗣𝗲𝗺𝗯𝗮𝗿𝘂𝗮𝗻 𝗙𝗶𝘁𝘂𝗿.\n━━━━━━━━━━━━━━━━━━━━━━━━━\nPembaruan:\n\n{}\n"
+upd_3: "𝗣𝗲𝗺𝗯𝗮𝗿𝘂𝗮𝗻 𝗙𝗶𝘁𝘂𝗿.\n━━━━━━━━━━━━━━━━━━━━━━━━━\nPembaruan:\n{}\n\n"
 upd_4: "Changelog terlalu besar, dikirim sebagai file."
 upd_5: "{}\nKredensial Heroku tidak valid untuk deploy 𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot dyno"
 upd_6: "[HEROKU]: Harap Tambahkan Variabel`HEROKU_APP_NAME` untuk deploy perubahan terbaru dari Userbot."
