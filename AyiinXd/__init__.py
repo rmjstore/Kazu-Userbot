@@ -564,24 +564,49 @@ with bot:
                             )
 
         @tgbot.on(
-            events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile(rb"reopen")
-            )
-        )
-        async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
-                buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot Menu**\n\n Based on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner : {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**"
-                await event.edit(
-                    text,
-                    file=logoyins,
-                    buttons=buttons,
-                    link_preview=False,
-                )
-            else:
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+    events.callbackquery.CallbackQuery(
+        data=re.compile(rb"reopen")
+    )
+)
+async def on_plug_in_callback_query_handler(event):
+    try:
+        # Debug informasi callback query
+        print(f"Callback data: {event.data}, User ID: {event.query.user_id}")
 
+        # Cek validitas pesan
+        if not event.message:
+            print("Event message tidak ditemukan!")
+            return
+
+        # Cek user ID
+        if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
+            buttons = paginate_help(0, dugmeler, "helpme")
+            text = (
+                f"**𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot Menu**\n\n"
+                f"Based on: **{adB.name}\n"
+                f"Deploy on: **•[{HOSTED_ON}]•\n"
+                f"Owner: {user.first_name}\n"
+                f"Jumlah: **{len(dugmeler)}** Modules**"
+            )
+
+            # Cek validitas file
+            if not logoyins:
+                print("File logoyins tidak ditemukan!")
+                return
+
+            # Edit pesan
+            await event.edit(
+                text,
+                file=logoyins,
+                buttons=buttons,
+                link_preview=False,
+            )
+        else:
+            reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+            await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+    except Exception as e:
+        print(f"Error: {e}")
+        
         @tgbot.on(events.InlineQuery)
         async def inline_handler(event):
             builder = event.builder
