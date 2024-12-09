@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
+ # Copyright (C) 2019 The Raphielscape Company LLC.
 #
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
@@ -570,42 +570,30 @@ with bot:
 )
         async def on_plug_in_callback_query_handler(event):
             try:
-        # Debug informasi callback query
-                print(f"Callback data: {event.data}, User ID: {event.query.user_id}")
-
-        # Cek validitas pesan
-                if not event.message:
-                    print("Event message tidak ditemukan!")
-                    return
-
-        # Cek user ID
-                if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
-                    buttons = paginate_help(0, dugmeler, "helpme")
-                    text = (
-                        f"**𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot Menu**\n\n"
-                        f"Based on: **{adB.name}\n"
-                        f"Deploy on: **•[{HOSTED_ON}]•\n"
-                        f"Owner: {user.first_name}\n"
-                        f"Jumlah: **{len(dugmeler)}** Modules**"
-                    )
-
-            # Cek validitas file
-                    if not logoyins:
-                        print("File logoyins tidak ditemukan!")
-                        return
-
-            # Edit pesan
-                    await event.edit(
-                        text,
-                        file=logoyins,
-                        buttons=buttons,
-                        link_preview=False,
-                    )
-                else:
-                    reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
-                    await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+        # Ambil pesan asli terkait callback
+                message = await event.get_message()
+                print(f"Pesan terkait: {message.text}")  # Debug
             except Exception as e:
-                print(f"Error: {e}")
+                print(f"Error saat mengambil pesan: {e}")
+
+            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
+                buttons = paginate_help(0, dugmeler, "helpme")
+                text = (
+                    f"**𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot Menu**\n\n"
+                    f"Based on :** {adB.name}\n"
+                    f"Deploy on :** •[{HOSTED_ON}]•\n"
+                    f"Owner : {user.first_name}\n"
+                    f"Jumlah :** {len(dugmeler)} **Modules**"
+                )
+                await event.edit(
+                    text,
+                    file=logoyins,
+                    buttons=buttons,
+                    link_preview=False,
+                )
+            else:
+                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
+                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
         
         @tgbot.on(events.InlineQuery)
         async def inline_handler(event):
