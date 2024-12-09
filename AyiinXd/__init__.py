@@ -590,8 +590,8 @@ with bot:
                     f"**Jumlah:** {len(dugmeler)} **Modules**"
         )
 
-        # Coba edit pesan, gunakan try-except untuk menangani error
-                 try:
+                # Coba edit pesan, gunakan try-except untuk menangani error
+               try:
                    await event.edit(
                         text,
                         file=logoyins,
