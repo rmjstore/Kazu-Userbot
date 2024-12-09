@@ -222,19 +222,19 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/55d430161fa76fbd0e15b.jpg")
+              or "https://telegra.ph/file/78fbd9d73e1f456857222.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/55d430161fa76fbd0e15b.jpg")
+              or "https://telegra.ph/file/78fbd9d73e1f456857222.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/55d430161fa76fbd0e15b.jpg")
+             or "https://telegra.ph/file/78fbd9d73e1f456857222.jpg")
 
-DEFAULT = list(map(int, b64decode("NzE3NjYxMzc1Mg==").split()))
+DEFAULT = list(map(int, b64decode("NjAzNzM2NDQwNA==").split()))
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -433,8 +433,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/55d430161fa76fbd0e15b.jpg",
-                    "https://telegra.ph/file/753f82bb7a150f14f92cf.jpg",
+                    "https://telegra.ph/file/78fbd9d73e1f456857222.jpg",
+                    "https://telegra.ph/file/78fbd9d73e1f456857222.jpg",
                 ]
         )
         cmd = CMD_HANDLER
