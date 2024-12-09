@@ -562,8 +562,8 @@ with bot:
                                 BOTLOG_CHATID,
                                 f"**ERROR:** Saat menyimpan detail pesan di database\n`{e}`",
                             )
-
-        @tgbot.on(
+                            
+         @tgbot.on(
     events.callbackquery.CallbackQuery(
         data=re.compile(rb"reopen")
     )
@@ -574,18 +574,12 @@ with bot:
 
     # Validasi user ID
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
-        # Ambil pesan berdasarkan ID, gunakan try-except jika pesan tidak ditemukan
-                try:
-                    message = await event.get_message()
-                except Exception as e:
-                    print(f"Error saat mengambil pesan: {e}")
-                    message = None
-
-        # Periksa apakah pesan tersedia
-                if not message:
+        # Menggunakan event.message untuk mendapatkan pesan terkait
+                message = event.message
+                if message is None:
                     await event.answer("Pesan asli tidak ditemukan atau telah dihapus.", alert=True)
                     return
-
+        
         # Buat tombol dan teks untuk menu
                 buttons = paginate_help(0, dugmeler, "helpme")
                 text = (
@@ -594,24 +588,25 @@ with bot:
                     f"**Deploy on:** •[{HOSTED_ON}]•\n"
                     f"**Owner:** {user.first_name}\n"
                     f"**Jumlah:** {len(dugmeler)} **Modules**"
-                )
+        )
 
         # Coba edit pesan, gunakan try-except untuk menangani error
-                try:
-                    await event.edit(
+                 try:
+                   await event.edit(
                         text,
                         file=logoyins,
                         buttons=buttons,
                         link_preview=False,
-                    )
+                   )
                 except Exception as e:
                     print(f"Error saat mengedit pesan: {e}")
                     await event.answer("Terjadi kesalahan saat mengedit pesan.", alert=True)
             else:
         # Jika user tidak diizinkan
                 reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
-     
+                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)                   
+
+        
         @tgbot.on(events.InlineQuery)
         async def inline_handler(event):
             builder = event.builder
