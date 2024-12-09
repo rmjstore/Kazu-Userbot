@@ -563,7 +563,7 @@ with bot:
                                 f"**ERROR:** Saat menyimpan detail pesan di database\n`{e}`",
                             )
                             
-         @tgbot.on(
+        @tgbot.on(
     events.callbackquery.CallbackQuery(
         data=re.compile(rb"reopen")
     )
