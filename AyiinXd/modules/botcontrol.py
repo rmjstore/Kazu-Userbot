@@ -83,14 +83,14 @@ async def check_bot_started_users(user, event):
     check = get_starter_details(user.id)
     if check is None:
         start_date = str(datetime.now().strftime("%B %d, %Y"))
-        notification = f"🔮 **#BOT_START**\n**First Name:** {_format.mentionuser(user.first_name , user.id)} \
-                \n**User ID: **`{user.id}`\
-                \n**Action: **Telah Memulai saya."
+        notification = f"𝗕𝗼𝘁 𝗦𝘁𝗮𝗿𝘁.\n     **First Name:** {_format.mentionuser(user.first_name , user.id)} \
+                \n     **User ID: **`{user.id}`\
+                \n     **Action: **Telah Memulai saya."
     else:
         start_date = check.date
-        notification = f"🔮 **#BOT_RESTART**\n**First Name:** {_format.mentionuser(user.first_name , user.id)}\
-                \n**ID: **`{user.id}`\
-                \n**Action: **Telah Me-Restart saya"
+        notification = f"𝗕𝗼𝘁 𝗥𝗲𝘀𝘁𝗮𝗿𝘁.\n     **First Name:** {_format.mentionuser(user.first_name , user.id)}\
+                \n     **ID: **`{user.id}`\
+                \n     **Action: **Telah Me-Restart saya"
     try:
         add_starter_to_db(
             user.id,
@@ -1038,15 +1038,11 @@ async def bot_start(event):
                 my_mention=my_mention,
             )
         else:
-            start_msg = f"**👋 Hai** {mention}**!**\
-                        \n\n**Saya adalah {my_first}** \
-                        \n**Anda dapat menghubungi [{OWNER}](tg://user?id={OWNER_ID}) dari sini.**\
-                        \n**Jangan melakukan spam atau anda akan di Banned**\
-                        \n\n**Powered by 🐣** [𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://github.com/ionmusic/Kazu-Userbot)"
+            start_msg = f"𝗛𝗮𝗹𝗼 {mention}**!**\n     Saya adalah {my_first}\n     Bantuan untuk [{OWNER}](tg://user?id={OWNER_ID})\n     Spam di bot auto banned!\n     Jalankan aku [𝗕𝗹𝘂𝗲𝗳𝗹𝗼𝘆𝗱-Userbot](https://github.com/bluefloyd24/Kazu-Userbot)"
         buttons = [
             (
-                Button.url("ɢʀᴏᴜᴘ", f"https://t.me/{GROUP}"),
-                Button.url("ᴄʜᴀɴɴᴇʟ", f"https://t.me/{CHANNEL}"),
+                Button.url("Group", f"https://t.me/{GROUP}"),
+                Button.url("Channel", f"https://t.me/{CHANNEL}"),
             )
         ]
     else:
