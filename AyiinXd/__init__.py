@@ -563,31 +563,18 @@ with bot:
                                 f"**ERROR:** Saat menyimpan detail pesan di database\n`{e}`",
                             )
                             
-        @tgbot.on(
-            events.callbackquery.CallbackQuery(
-                data=re.compile(rb"reopen")
-            )
-        )
+        @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(rb"reopen")))
         async def on_plug_in_callback_query_handler(event):
-            print(f"Callback data: {event.query.data}, User ID: {event.query.user_id}")
-            if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
-        # Gunakan event.query.message_id untuk mengambil pesan jika tidak ada event.message
-                try:
-            # Jika event.query.message tidak tersedia, gunakan message_id untuk mengambil pesan
-                    message = event.query.message
-                    if message is None:
-                        message = await event.client.get_messages(
-                            event.chat_id, ids=event.query.message_id
-                        )
-                        if not message:  # Jika masih tidak ditemukan
-                            raise ValueError("Pesan tidak ditemukan.")
+            try:
+        # Ambil ID pesan dari event.query jika event.message tidak ada
+                message_id = event.query.message_id
+                chat_id = event.chat_id
 
-                except Exception as e:
-                    print(f"Error saat mengambil pesan: {e}")
-                    await event.answer(
-                        "Pesan asli tidak ditemukan atau telah dihapus.", alert=True
-                    )
-                    return
+        # Ambil pesan asli menggunakan client.get_messages
+                message = await event.client.get_messages(chat_id, ids=message_id)
+
+        # Debugging log untuk memeriksa apakah pesan berhasil ditemukan
+                print(f"Pesan ditemukan: {message.text}")
 
         # Buat tombol dan teks untuk menu
                 buttons = paginate_help(0, dugmeler, "helpme")
@@ -595,26 +582,25 @@ with bot:
                     f"**𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot Menu**\n\n"
                     f"**Based on:** {adB.name}\n"
                     f"**Deploy on:** •[{HOSTED_ON}]•\n"
-                    f"**Owner:** {user.first_name}\n"
+                    f"**Owner:** {owner}\n"
                     f"**Jumlah:** {len(dugmeler)} **Modules**"
-                )
+        )
 
-        # Coba edit pesan, gunakan try-except untuk menangani error
-                try:
-                    await message.edit(
-                        text,
-                        file=logoyins,
-                        buttons=buttons,
-                      link_preview=False,
-                    )
-                except Exception as e:
-                    print(f"Error saat mengedit pesan: {e}")
-                    await event.answer("Terjadi kesalahan saat mengedit pesan.", alert=True)
-            else:
-        # Jika user tidak diizinkan
-                reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)  
-      
+        # Edit pesan dengan tombol
+                await message.edit(
+                    text,
+                    file=logoyins,
+                    buttons=buttons,
+                    link_preview=False,
+                )
+            except Exception as e:
+        # Tampilkan error jika pesan tidak ditemukan atau ada kesalahan lain
+                print(f"Error saat mengambil atau mengedit pesan: {e}")
+                await event.answer(
+                    "Pesan asli tidak ditemukan atau telah dihapus.",
+                    alert=True,
+                )
+        
         @tgbot.on(events.InlineQuery)
         async def inline_handler(event):
             builder = event.builder
