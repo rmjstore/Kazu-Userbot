@@ -588,16 +588,16 @@ with bot:
                     f"**Deploy on:** •[{HOSTED_ON}]•\n"
                     f"**Owner:** {user.first_name}\n"
                     f"**Jumlah:** {len(dugmeler)} **Modules**"
-        )
+                )
 
                 # Coba edit pesan, gunakan try-except untuk menangani error
-               try:
-                   await event.edit(
-                        text,
-                        file=logoyins,
-                        buttons=buttons,
-                        link_preview=False,
-                   )
+                try:
+                    await event.edit(
+                         text,
+                         file=logoyins,
+                         buttons=buttons,
+                         link_preview=False,
+                    )
                 except Exception as e:
                     print(f"Error saat mengedit pesan: {e}")
                     await event.answer("Terjadi kesalahan saat mengedit pesan.", alert=True)
