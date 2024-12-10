@@ -59,7 +59,7 @@ async def autopilot():
         r = await bot(
             CreateChannelRequest(
                 title="botlogs.-𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗",
-                about="support channel @proofniyeee",
+                about="support channel @bluefloydd",
                 megagroup=True,
             ),
         )
@@ -106,7 +106,7 @@ async def autobot():
     if who.username:
         username = f"{who.username}_bot"
     else:
-        username = f"Blue{(str(who.id))[5:]}bot"
+        username = f"bluefloyd{(str(who.id))[5:]}ubot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -145,7 +145,7 @@ async def autobot():
     await bot.send_read_acknowledge("botfather")
     if isdone.startswith("Sorry,"):
         ran = randint(1, 100)
-        username = f"blue{str(who.id)[6:]}{ran}bot"
+        username = f"bluefloyd{str(who.id)[6:]}{ran}ubot"
         await bot.send_message(bf, username)
         await asyncio.sleep(1)
         nowdone = (await bot.get_messages(bf, limit=1))[0].text
@@ -228,7 +228,7 @@ async def autobot():
             f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
         await bot.send_message(
             BOTLOG_CHATID,
-            "**restarting bot. renewal userbot just chat @blque!**",
+            "**restarting bot. renewal userbot just chat @zavril!**",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
