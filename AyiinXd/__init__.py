@@ -564,23 +564,24 @@ with bot:
                             )
                             
         @tgbot.on(
-    events.callbackquery.CallbackQuery(
-        data=re.compile(rb"reopen")
-    )
-)
+            events.callbackquery.CallbackQuery(
+                data=re.compile(rb"reopen")
+            )
+        )
         async def on_plug_in_callback_query_handler(event):
-    # Debugging log untuk memeriksa callback data dan user ID
             print(f"Callback data: {event.query.data}, User ID: {event.query.user_id}")
-
-    # Validasi user ID
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
         # Gunakan event.query.message_id untuk mengambil pesan jika tidak ada event.message
                 try:
+            # Jika event.query.message tidak tersedia, gunakan message_id untuk mengambil pesan
                     message = event.query.message
-                    if message is None:  # Jika tidak ada message di event.query
+                    if message is None:
                         message = await event.client.get_messages(
                             event.chat_id, ids=event.query.message_id
                         )
+                        if not message:  # Jika masih tidak ditemukan
+                            raise ValueError("Pesan tidak ditemukan.")
+
                 except Exception as e:
                     print(f"Error saat mengambil pesan: {e}")
                     await event.answer(
@@ -604,7 +605,7 @@ with bot:
                         text,
                         file=logoyins,
                         buttons=buttons,
-                        link_preview=False,
+                      link_preview=False,
                     )
                 except Exception as e:
                     print(f"Error saat mengedit pesan: {e}")
@@ -612,8 +613,8 @@ with bot:
             else:
         # Jika user tidak diizinkan
                 reply_pop_up_alert = f"Kamu Tidak diizinkan, ini Userbot Milik {owner}"
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
-        
+                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)  
+      
         @tgbot.on(events.InlineQuery)
         async def inline_handler(event):
             builder = event.builder
