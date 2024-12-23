@@ -255,7 +255,7 @@ async def dlyspam(event):
 
                         
 @ayiin_cmd(pattern="(delayspamfw|dspamfw) ([\\s\\S]*)")
-async def dlyspamfw(event):#cc.blue
+async def dlyspamfw(event):
     if event.chat_id in BLACKLIST_CHAT:
         return await event.edit(get_string("ayiin_1"))
     
