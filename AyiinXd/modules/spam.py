@@ -251,8 +251,54 @@ async def dlyspam(event):
         )
     await event.delete()
     addgvar("spamwork", True)
-    await spam_function(event, reply, xnxx, sleeptimem, sleeptimet, DelaySpam=True)
+    await spam_function(event, reply, xnxx, sleeptimem, sleeptimet, DelaySpam=True
 
+                        
+@ayiin_cmd(pattern="(delayspamfw|dspamfw) ([\\s\\S]*)")
+async def dlyspamfw(event):#cc.blue
+    if event.chat_id in BLACKLIST_CHAT:
+        return await event.edit(get_string("ayiin_1"))
+    
+    input_str = "".join(event.text.split(maxsplit=1)[1:]).split(" ", 2)
+    try:
+        sleeptimet = sleeptimem = float(input_str[0])
+    except Exception:
+        return await eod(event, get_string("dspam_1").format(cmd))
+
+    try:
+        counter = int(input_str[1])
+    except Exception:
+        return await eod(event, get_string("dspam_1").format(cmd))
+
+    channel_message_link = input_str[2]
+    
+    try:
+        message_id = int(channel_message_link.split('/')[-1])
+        channel_username = channel_message_link.split('/')[3]
+        channel = await event.client.get_entity(channel_username)
+        message = await event.client.get_messages(channel, ids=message_id)
+
+    except Exception as e:
+        return await eod(event, f"Error: {str(e)}")
+    
+    await event.delete()
+    addgvar("spamwork", True)
+
+    for _ in range(counter):
+        if gvarstatus("spamwork") is None:
+            return
+        await event.client.forward_messages(event.chat_id, message.id, channel)
+        await asyncio.sleep(sleeptimem)
+    
+    if BOTLOG_CHATID:
+        if event.is_private:
+            await event.client.send_message(
+                BOTLOG_CHATID, get_string("dspamfw_1").format(event.chat_id, counter, message.text)
+            )
+        else:
+            await event.client.send_message(
+                BOTLOG_CHATID, get_string("dspamfw_2").format(get_display_name(await event.get_chat()), event.chat_id, counter, message.text)
+            )
 
 CMD_HELP.update(
     {
