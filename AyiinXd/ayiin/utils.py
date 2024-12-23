@@ -54,7 +54,7 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="botlogs.-𝗜𝗫𝗔𝗟𝗟",
+                title="logs. -𝗜𝗫𝗔𝗟𝗟",
                 about="support channel @jasebixall",
                 megagroup=True,
             ),
@@ -73,7 +73,7 @@ async def autopilot():
     channel = get_peer_id(chat)
     if isinstance(chat.photo, ChatPhotoEmpty):
         photo = await download_file(
-            "https://telegra.ph/file/78fbd9d73e1f456857222.jpg", "photoyins.jpg"
+            "https://telegra.ph/file/b9db32457eba4e42e70f7.jpg", "photoyins.jpg"
         )
         ll = await bot.upload_file(photo)
         try:
@@ -131,8 +131,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph/file/de01fb8f66e7e55e2ae06.jpg", 
-              "https://telegra.ph/file/de01fb8f66e7e55e2ae06.jpg",
+              "https://telegra.ph/file/b9db32457eba4e42e70f7.jpg", 
+              "https://telegra.ph/file/b9db32457eba4e42e70f7.jpg"
           ]
     )
     await bot.send_message(bf, username)
