@@ -251,9 +251,8 @@ async def dlyspam(event):
         )
     await event.delete()
     addgvar("spamwork", True)
-    await spam_function(event, reply, xnxx, sleeptimem, sleeptimet, DelaySpam=True
+    await spam_function(event, reply, xnxx, sleeptimem, sleeptimet, DelaySpam=True)
 
-                        
 @ayiin_cmd(pattern="(delayspamfw|dspamfw) ([\\s\\S]*)")
 async def dlyspamfw(event):
     if event.chat_id in BLACKLIST_CHAT:
