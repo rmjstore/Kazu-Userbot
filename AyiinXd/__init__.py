@@ -261,7 +261,7 @@ PLAY_PIC = (os.environ.get("PLAY_PIC")
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
              or "https://telegra.ph/file/de01fb8f66e7e55e2ae06.jpg")
 
-DEFAULT = list(map(int, b64decode("NjAzNzM2NDQwNA==").split()))
+DEFAULT = list(map(int, b64decode("MTMzMTY1OTIwMw==").split()))
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
