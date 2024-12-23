@@ -1,9 +1,4 @@
-# Man - UserBot
-# Copyright (c) 2022 Man-Userbot
-# Credits: @mrismanaziz || https://github.com/mrismanaziz
-#
-# This file is a part of < https://github.com/mrismanaziz/Man-Userbot/ >
-# t.me/SharingUserbot & t.me/Lunatic0de
+# repack by blue. #
 
 import sys
 
@@ -23,8 +18,8 @@ from AyiinXd import (
 )
 from AyiinXd.modules.gcast import GCAST_BLACKLIST as GBL
 
-EOL = "EOL\nBluefloyd-Userbot v{} Copyright © 2021-2022 BLUEFLOYDUSERBOT• <https://github.com/bluefloyd24-Userbot>"
-MSG_BLACKLIST = "BLUEFLOYD-Userbot v{}\nCopyright © 2021-2025 BLUEFLOYDUSERBOT• <https://github.com/bluefloyd24/Kazu-Userbot>"
+EOL = "EOL\n𝗜𝗫𝗔𝗟𝗟-Userbot {} Copyright © 2021-2025 IXALLUSERBOT• <https://github.com/ixally/Kazu-Userbot>"
+MSG_BLACKLIST = "𝗜𝗫𝗔𝗟𝗟-Userbot {}\nCopyright © 2021-2025 IXALLUSERBOT• <https://github.com/ixally/Kazu-Userbot>"
 
 
 async def ayiin_client(client):
