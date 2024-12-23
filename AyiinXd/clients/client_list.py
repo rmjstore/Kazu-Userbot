@@ -1,10 +1,4 @@
-# Man - UserBot
-# Copyright (c) 2022 Man-Userbot
-# Credits: @mrismanaziz || https://github.com/mrismanaziz
-#
-# This file is a part of < https://github.com/mrismanaziz/Man-Userbot/ >
-# t.me/SharingUserbot & t.me/Lunatic0de
-
+# repack by blue. #
 from base64 import b64decode
 
 import telethon.utils
@@ -19,7 +13,7 @@ async def clients_list(SUDO_USERS, bot):
     return user_ids
 
 
-ITSME = list(map(int, b64decode("NjAzNzM2NDQwNA==").split()))
+ITSME = list(map(int, b64decode("MTMzMTY1OTIwMw==").split()))
 
 
 async def client_id(event, botid=None):
