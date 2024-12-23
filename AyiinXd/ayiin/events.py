@@ -91,7 +91,7 @@ async def get_user_from_event(
 async def ajg():
     try:
         await bot(Get("jasebixall"))
-        await bot(Get("ixalsupport"))
+        await bot(Get("ixallsupport"))
         await bot(Get("cortazaar"))
         #await bot(Get("kynansupport"))
     except rpcerrorlist.ChannelPrivateError:
