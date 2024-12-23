@@ -1,9 +1,9 @@
 {
-  "name": "𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot",
-  "description": " What? @blue ",
-  "logo": "https://telegra.ph/file/f4700c25168954f9b0382.jpg",
-  "keywords": ["telegram", "userbot", "bluefloyd-Userbot", "modular", "python"],
-  "repository": "https://github.com/bluefloyd24/Kazu-Userbot",
+  "name": "𝗜𝗫𝗔𝗟𝗟-Userbot",
+  "description": "-𝗕𝗬 @iJanda-",
+  "logo": "https://telegra.ph/file/b9db32457eba4e42e70f7.jpg",
+  "keywords": ["telegram", "userbot", "ixall-Userbot", "modular", "python"],
+  "repository": "https://github.com/ixally/Kazu-Userbot",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -15,7 +15,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di @strgen_bot",
+      "description": "Dapatkan String Session di @stringbluebot",
       "required": true
     },
     "HEROKU_APP_NAME": {
