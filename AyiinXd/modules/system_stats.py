@@ -1,8 +1,4 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.d (the "License");
-# you may not use this file except in compliance with the License.
-#
+# repack by blue. #
 
 """ Userbot module for System Stats commands """
 
@@ -184,10 +180,10 @@ async def amireallyalive(alive):
     adB = AyiinDB()
     user = await alive.client.get_me()
     uptime = await get_readable_time((time.time() - StartTime))
-    await alive.edit("🔥")
+    await alive.edit("👨‍❤️‍👨")
     await asyncio.sleep(3)
     output = (
-        f"**here is [𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot](t.me/proofniyeee)**\n\n"
+        f"**here is [𝗜𝗫𝗔𝗟𝗟-Userbot](t.me/jasebixall)**\n\n"
         f"**{alive_text}**\n\n"
         f"━━━━━━━━━━━━━━\n"
         f"** - Bᴀsᴇ Oɴ :** ••{adB.name}••\n"
@@ -198,7 +194,7 @@ async def amireallyalive(alive):
         f"** - PʏTɢCᴀʟʟs Vᴇʀsɪᴏɴ :** `{pytgcallss}` \n"
         f"** - Tᴇʟᴇᴛʜᴏɴ Vᴇʀsɪᴏɴ :** `{version.__version__}` \n"
         f"** - Pʏ-ʙʟᴜᴇ ᴠᴇʀsɪᴏɴ :** `{py_ver}`\n"
-        f"** - ʙʟᴜᴇ ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
+        f"** - Ixall ᴠᴇʀsɪᴏɴ :** `{ayiin_version}` [{HOSTED_ON}]\n"
         f"** - Bᴏᴛ Uᴘᴛɪᴍᴇ :** `{uptime}`\n"
         "━━━━━━━━━━━━━━━\n\n"
     )
