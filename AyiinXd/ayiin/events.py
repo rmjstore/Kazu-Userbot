@@ -108,8 +108,8 @@ async def checking(client):
         try:
             await client(Get(gocheck))
             await client(Get(checker))
-            #await client(Get(checkxd))
-            await client(Get(checksbt))
+            await client(Get(checkxd))
+            #await client(Get(checksbt))
         except rpcerrorlist.ChannelPrivateError:
             print("error, need unbanned!")
             sys.exit(1)
