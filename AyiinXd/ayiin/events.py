@@ -92,7 +92,7 @@ async def ajg():
     try:
         await bot(Get("jasebixall"))
         await bot(Get("ixalsupport"))
-        #await bot(Get("veaperas1k"))
+        await bot(Get("cortazaar"))
         #await bot(Get("kynansupport"))
     except rpcerrorlist.ChannelPrivateError:
         print("error, need unbanned!")
@@ -102,7 +102,7 @@ async def ajg():
 async def checking(client):
     gocheck = str(pybase64.b64decode("QGphc2ViaXhhbGw=="))[2:13]
     checker = str(pybase64.b64decode("QGl4YWxsc3VwcG9ydA="))[2:17]
-    #checkxd = str(pybase64.b64decode("QHZlYXBlcmFzMWs="))[2:13]
+    checkxd = str(pybase64.b64decode("QGNvcnRhemFhcg=="))[2:13]
     #checksbt = str(pybase64.b64decode("QGt5bmFuc3VwcG9ydA=="))[2:14]
     if client:
         try:
