@@ -79,7 +79,7 @@ async def _(event):
     await e.edit("MY BABY")
     await e.edit("💕💞💘💝")
     await e.edit("💘💕💞💝")
-    await e.edit("SAYANG KAMU💞")
+    await e.edit("SAYANG KAMU SLEBEW💞")
 
 
 @ayiin_cmd(pattern=r"dino(?: |$)(.*)")
