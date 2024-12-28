@@ -97,54 +97,54 @@ async def _(ping):
 async def _(pong):
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    kopong = await edit_or_reply(pong, "**『⍟𝐊𝐎𝐍𝐓𝐎𝐋』**")
-    await kopong.edit("**◆◈𝐊𝐀𝐌𝐏𝐀𝐍𝐆◈◆**")
-    await kopong.edit("**𝐏𝐄𝐂𝐀𝐇𝐊𝐀𝐍 𝐁𝐈𝐉𝐈 𝐊𝐀𝐔 𝐀𝐒𝐔**")
-    await kopong.edit("**☬𝐒𝐈𝐀𝐏 𝐊𝐀𝐌𝐏𝐀𝐍𝐆 𝐌𝐄𝐍𝐔𝐌𝐁𝐔𝐊 𝐀𝐒𝐔☬**")
+    kopong = await edit_or_reply(pong, "**『𝗹𝗼𝗮𝗱𝗶𝗻𝗴』**")
+    await kopong.edit("**𝗽𝗹𝗲𝗮𝘀𝗲 𝘄𝗮𝗶𝘁**")
+    await kopong.edit("**𝗱𝗲𝘁𝗲𝗰𝘁 𝘆𝗼𝘂𝗿 𝗽𝗶𝗻𝗴**")
+    await kopong.edit("**𝘆𝗼𝘂𝗿 𝗽𝗶𝗻𝗴 𝗵𝗮𝘀 𝗯𝗲𝗲𝗻 𝗱𝗲𝘁𝗲𝗰𝘁𝗲𝗱**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     user = await pong.client.get_me()
     await kopong.edit(
-        f"**✲ 𝙺𝙾𝙽𝚃𝙾𝙻 𝙼𝙴𝙻𝙴𝙳𝚄𝙶** "
-        f"\n ⫸ 𝙺𝙾𝙽𝚃𝙾𝙻 `%sms` \n"
-        f"**✲ 𝙱𝙸𝙹𝙸 𝙿𝙴𝙻𝙴𝚁** "
-        f"\n ⫸ 𝙺𝙰𝙼𝙿𝙰𝙽𝙶『[{user.first_name}](tg://user?id={user.id})』 \n" % (duration)
+        f"** 𖤐 𝗛𝗔𝗩𝗘 𝗬𝗢𝗨𝗥 𝗣𝗜𝗡𝗚** "
+        f"\n ★ 𝗬𝗼𝘂𝗿 𝗣𝗶𝗻𝗴 `%sms` \n"
+        f"**★ 𝗨𝗽𝘁𝗶𝗺𝗲** "
+        f"\n ★ User - 𝗜𝗫𝗔𝗟𝗟『[{user.first_name}](tg://user?id={user.id})』 \n" % (duration)
     )
 
 
 # .keping & kping Coded by Koala
 
 
-@ayiin_cmd(pattern=r"kazu$")
+@ayiin_cmd(pattern=r"xall$")
 async def _(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    kping = await edit_or_reply(pong, "8✊===D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8===✊D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8✊===D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8===✊D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8✊===D")
-    await kping.edit("8=✊==D")
-    await kping.edit("8==✊=D")
-    await kping.edit("8===✊D")
-    await kping.edit("8===✊D💦")
-    await kping.edit("8====D💦💦")
-    await kping.edit("**KAZUUUUU**")
-    await kping.edit("**DISINI KAZU YAGESYA.....**")
+    kping = await edit_or_reply(pong, "8🥶===D")
+    await kping.edit("8=🥵==D")
+    await kping.edit("8==🤯=D")
+    await kping.edit("8===☠️D")
+    await kping.edit("8==😈=D")
+    await kping.edit("8=😼==D")
+    await kping.edit("8🤩===D")
+    await kping.edit("8=🤑==D")
+    await kping.edit("8==🥶=D")
+    await kping.edit("8===🥵D")
+    await kping.edit("8==🤯=D")
+    await kping.edit("8=😎==D")
+    await kping.edit("8😵===D")
+    await kping.edit("8=🥴==D")
+    await kping.edit("8==🥸=D")
+    await kping.edit("8===🥹D")
+    await kping.edit("8===😬D🔥")
+    await kping.edit("8====D🔥🔥")
+    await kping.edit("**IXALLL**")
+    await kping.edit("**DISINI IXALL GANTENG KECE BADAI SLEBEW .....**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await kping.edit("🥵")
+    await kping.edit("☠️")
     sleep(3)
     await kping.edit(
-        f"**𝙺𝙰𝚉𝚄 𝚃𝙰𝙼𝙿𝙰𝙽!! 🥵**\n**𝙿𝙸𝙽𝙶𝙴𝚁** : %sms\n**𝙱𝙾𝚃 𝚄𝙿𝚃𝙸𝙼𝙴** : {uptime}🕛" % (duration)
+        f"**𝙺𝙰𝚉𝚄 𝚃𝙰𝙼𝙿𝙰𝙽!! 💀**\n**𝗬𝗼𝘂𝗿 𝗣𝗶𝗻𝗴** : %sms\n**𝗨𝗽𝘁𝗶𝗺𝗲** : {uptime}🕛" % (duration)
     )
 
 
@@ -194,7 +194,7 @@ async def _(pong):
 CMD_HELP.update(
     {
         "ping": f"**Plugin : **`ping`\
-        \n\n  »  **Perintah :** `{cmd}ping` ; `{cmd}lping` ; `{cmd}xping` ; `{cmd}kazu`\
+        \n\n  »  **Perintah :** `{cmd}ping` ; `{cmd}lping` ; `{cmd}xping` ; `{cmd}xall`\
         \n  »  **Kegunaan : **Untuk menunjukkan ping userbot.\
         \n\n  »  **Perintah :** `{cmd}pong`\
         \n  »  **Kegunaan : **Sama seperti perintah ping\
