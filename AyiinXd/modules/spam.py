@@ -315,6 +315,8 @@ CMD_HELP.update(
         \n\n  »  **Perintah :** `{cmd}delayspam` <detik> <jumlah spam> <text>\
         \n  »  **Kegunaan : **Spam surat teks dengan huruf.\
         \n\n  •  **NOTE : Spam dengan Risiko Anda sendiri**\
+        \n\n  »  Perintah : {cmd}dspamfw <detik> <jumlah spam> <link yang ingin di forward>\
+        \n  »  Kegunaan : spam forward dari channel.\
     "
     }
 )
