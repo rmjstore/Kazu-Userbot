@@ -20,7 +20,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/78fbd9d73e1f456857222.jpg",
                 caption="𝗜𝗫𝗔𝗟𝗟-Userbot.\n     **status : Active\n     ketik `.ping` untuk cek bot!**",
-                buttons=[(Button.url("Channel", "https://t.me/cortazaar")),
+                buttons=[(Button.url("Channel", "https://t.me/jasebxall")),
                          (Button.url("Support", "https://t.me/ixallsupport"))]
             )
     except Exception as e:
