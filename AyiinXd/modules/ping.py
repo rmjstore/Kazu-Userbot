@@ -144,7 +144,7 @@ async def _(pong):
     await kping.edit("☠️")
     sleep(3)
     await kping.edit(
-        f"**𝙺𝙰𝚉𝚄 𝚃𝙰𝙼𝙿𝙰𝙽!! 💀**\n**𝗬𝗼𝘂𝗿 𝗣𝗶𝗻𝗴** : %sms\n**𝗨𝗽𝘁𝗶𝗺𝗲** : {uptime}🕛" % (duration)
+        f"**IXALL TAMVAN!! 💀**\n**𝗬𝗼𝘂𝗿 𝗣𝗶𝗻𝗴** : %sms\n**𝗨𝗽𝘁𝗶𝗺𝗲** : {uptime}🕛" % (duration)
     )
 
 
