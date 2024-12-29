@@ -55,7 +55,7 @@ async def autopilot():
         r = await bot(
             CreateChannelRequest(
                 title="logs. -𝗜𝗫𝗔𝗟𝗟",
-                about="support channel @jasebixall",
+                about="support channel @jasebxall",
                 megagroup=True,
             ),
         )
