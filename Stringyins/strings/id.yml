@@ -1008,15 +1008,7 @@ lang_4: "❏ Silahkan Pilih Untuk Membuat String Session Anda\n╭╼┅━━�
 
 # yiinstoxic tools
 yitxc_1: "**GILA COK IXALL GANTENG BANGET KECE BADAI**"
-yitxc_2: "**1 JAM = 60 MENIT = 3600 DETIK
-kalo pake jeda 5 detik dengan durasi 1 jam:
-berarti dalam 1 menit menghasilkan 12 bbc,
-1 menit = 12 bbc
-                = 12 × 60
-                = 720
-
- jadi kalo pake jeda 5 detik dengan durasi 1 jam,
- menggunakan .delayspam 5 720 list sebar
+yitxc_2: "<b>1 JAM = 60 MENIT = 3600 DETIK</b>\n\nkalo pake jeda 5 detik dengan durasi 1 jam:\n\nberarti dalam 1 menit menghasilkan 12 bbc\n1 menit = 12 bbc\n                = 12 × 60\n                = 720\n\njadi kalo pake jeda 5 detik dengan durasi 1 jam,\nmenggunakan .delayspam 5 720 list sebar
 kalo pake jeda 10 detik dengan durasi 1 jam :
 berarti dalam 1 menit menghasilkan 6 bbc,
 1 menit = 6 bbc 
