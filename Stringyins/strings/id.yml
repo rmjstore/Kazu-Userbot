@@ -1066,20 +1066,20 @@ berarti dalam 1 menit menghasilkan 6 bbc,
 \njadi kalo pake jeda 45 detik dengan durasi 1 jam,
 \nmenggunakan .delayspam 45 85 list sebar
 \n\n**kalo pake jeda 50 detik dengan durasi 1 jam :**
-\bberarti dalam 1 jam menghasilkan 72 bbc
+\nberarti dalam 1 jam menghasilkan 72 bbc
 \n 11 jam = 3600 detik
 \n            = 3600 ÷ 50
 \n            = 72
 
-\n\n\bjadi kalo pake jeda 50 detik dengan durasi 1 jam,
-\n\n**\nmenggunakan .delayspam 50 72 list sebar**
-\nkalo pake jeda 60 detik dengan durasi 1 jam :
+\n\jadi kalo pake jeda 50 detik dengan durasi 1 jam,
+\nmenggunakan .delayspam 50 72 list sebar
+\n\n**kalo pake jeda 60 detik dengan durasi 1 jam :**
 \nberarti dalam 1 menit menghasilkan 1 bbc,
 \n1 menit = 1 bbc
 \n                = 1 × 60
-\b                = 60
+\n                = 60
 
-\n\njadi kalo pake jeda 60 detik dengan durasi 1 jam,
+\njadi kalo pake jeda 60 detik dengan durasi 1 jam,
 \n\nmenggunakan .delayspam 60 60 list sebar
 
 \nbang kenapa gada jeda 35 detik & 55 detkk?
@@ -1087,7 +1087,7 @@ berarti dalam 1 menit menghasilkan 6 bbc,
 
 \n\nkalo kalian mau pake durasi lebih dari 1 jam tinggal di kali aja, contoh pake jeda 60 detik dengan durasi 2 jam
 
-\n\nberarti kalian pake .delayspam 60 120**"
+\nberarti kalian pake .delayspam 60 120**"
 yitxc_3: "**MUKA LU SEMUA KAYA KONTOL HAHAHAHA!!**"
 yitxc_4: "**KONTOL MASIH BENGKOK AJA BANGGA LU HAHAHAHA!!**"
 yitxc_5: "**KONTOL KONTOL APA YANG BESAR?KONTOL LU LAH HAHAHAHA!!**"
