@@ -116,11 +116,11 @@ async def _(a):
 
 CMD_HELP.update(
     {
-        "yinstoxic": f"**Plugin : **`yinstoxic`\
+        "rumus": f"**Plugin : **`yinstoxic`\
         \n\n  »  **Perintah :** `{cmd}d`\
         \n  »  **Kegunaan : **Cobain sendiri tod\
-        \n\n  »  **Perintah :** `{cmd}e`\
-        \n  »  **Kegunaan : **Cobain sendiri tod\
+        \n\n  »  **Perintah :** `{cmd}rumus1`\
+        \n  »  **Kegunaan : **untuk melihat rumus jaseb per jam`\
         \n\n  »  **Perintah :** `{cmd}f`\
         \n  »  **Kegunaan : **Cobain sendiri tod\
         \n\n  »  **Perintah :** `{cmd}i`\
