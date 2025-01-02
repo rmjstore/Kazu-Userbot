@@ -1,4 +1,4 @@
-nama: Indonesia
+unama: Indonesia
 asli: Indonesia
 
 penulis:
@@ -1008,7 +1008,94 @@ lang_4: "❏ Silahkan Pilih Untuk Membuat String Session Anda\n╭╼┅━━�
 
 # yiinstoxic tools
 yitxc_1: "**GILA COK IXALL GANTENG BANGET KECE BADAI**"
-yitxc_2: "**GAK USAH SOK KERAS GOBLOK!!KENCING MASIH BERDIRI AJA BELAGU**"
+yitxc_2: "**1 JAM = 60 MENIT = 3600 DETIK
+kalo pake jeda 5 detik dengan durasi 1 jam:
+berarti dalam 1 menit menghasilkan 12 bbc,
+1 menit = 12 bbc
+                = 12 × 60
+                = 720
+
+ jadi kalo pake jeda 5 detik dengan durasi 1 jam,
+ menggunakan .delayspam 5 720 list sebar
+kalo pake jeda 10 detik dengan durasi 1 jam :
+berarti dalam 1 menit menghasilkan 6 bbc,
+1 menit = 6 bbc 
+                 = 6 × 60
+                 = 360
+
+jadi kalo pake jeda 10 detik dengan durasi 1 jam,
+menggunakan .delayspam 10 360 list sebar
+kalo pake jeda 15 detik dengan durasi 1 jam :
+berarti dalam 1 menit menghasilkan 4 bbc,
+1 menit = 4 bbc
+                = 4 × 60
+                = 240
+
+jadi kalo pake jeda 15 detik dengan durasi 1 jam,
+menggunakan .delayspam 15 240 list sebar
+kalo pake jeda 20 detik dengan durasi 1 jam :
+berarti dalam 1 menit menghasilkan 3 bbc,
+1 menit = 3 bbc
+                = 3 × 60
+                = 180
+
+jadi kalo pake jeda 20 detik dengan durasi 1 jam,
+menggunakan .delayspam 20 180 list sebar
+kalo pake jeda 25 detik dengan durasi 1 jam :
+berarti dalam 1 jam menghasilkan 144 bbc
+1 jam = 3600 detik
+            = 3600 ÷ 25
+            = 144
+
+jadu kalo pake jeda 25 detik dengan durasi 1 jam,
+menggunakan .delayspam 25 144 list sebar
+kalo pake jeda 30 detik dengan durasi 1 jam :
+berarti dalam 1 menit menghasilkan 2 bbc,
+1 menit = 2 bbc
+                = 2 × 60
+                = 120
+
+jadi kalo pake jeda 30 detik dengan durasi 1 jam,
+menggunakan .delayspam 30 120 list sebar
+kalo pake jeda 40 detik dengan durasi 1 jam :
+berarti dalam 1 jam menghasilkan 90 bbc
+1 jam = 3600 detik
+            = 3600 ÷ 40
+            = 90
+
+jadi kalo pake jeda 40 detik dengan durasi 1 jam,
+menggunakan .delayspam 40 90 list sebar
+kalo pake jeda 45 detik dengan durasi 1 jam :
+berarti dalam 1 jam menghasilkan 85 bbc
+1 jam = 3600 detik
+            = 3600 ÷ 45
+            = 85
+
+jadu kalo pake jeda 45 detik dengan durasi 1 jam,
+menggunakan .delayspam 45 85 list sebar
+kalo pake jeda 50 detik dengan durasi 1 jam :
+berarti dalam 1 jam menghasilkan 72 bbc
+1 jam = 3600 detik
+            = 3600 ÷ 50
+            = 72
+
+jadu kalo pake jeda 50 detik dengan durasi 1 jam,
+menggunakan .delayspam 50 72 list sebar
+kalo pake jeda 60 detik dengan durasi 1 jam :
+berarti dalam 1 menit menghasilkan 1 bbc,
+1 menit = 1 bbc
+                = 1 × 60
+                = 60
+
+jadi kalo pake jeda 60 detik dengan durasi 1 jam,
+menggunakan .delayspam 60 60 list sebar
+
+bang kenapa gada jeda 35 detik & 55 detkk?
+kalo jeda segitu dalam 1 jam hasilnya koma/ga sesuai sejam jadinya gada yaa.
+
+kalo kalian mau pake durasi lebih dari 1 jam tinggal di kali aja, contoh pake jeda 60 detik dengan durasi 2 jam
+
+berarti kalian pake .delayspam 60 120**"
 yitxc_3: "**MUKA LU SEMUA KAYA KONTOL HAHAHAHA!!**"
 yitxc_4: "**KONTOL MASIH BENGKOK AJA BANGGA LU HAHAHAHA!!**"
 yitxc_5: "**KONTOL KONTOL APA YANG BESAR?KONTOL LU LAH HAHAHAHA!!**"
