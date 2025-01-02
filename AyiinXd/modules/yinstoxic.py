@@ -116,7 +116,7 @@ async def _(a):
 
 CMD_HELP.update(
     {
-        "rumus": f"**Plugin : **`yinstoxic`\
+        "yinstoxic": f"**Plugin : **`yinstoxic`\
         \n\n  »  **Perintah :** `{cmd}d`\
         \n  »  **Kegunaan : **Cobain sendiri tod\
         \n\n  »  **Perintah :** `{cmd}rumus1`\
