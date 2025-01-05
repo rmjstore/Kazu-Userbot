@@ -1,8 +1,8 @@
-1unama: Indonesia
+nama: Indonesia
 asli: Indonesia
 
 penulis:
-  - ixall
+  - blu
   
 # mager scroll
 dspamfw_1: "Berhasil melakukan delay spam forward di chat {} sebanyak {} kali. Pesan yang diteruskan: {}"
@@ -53,7 +53,7 @@ error_8: "**KESALAHAN: {} tidak merespon silahkan coba lagi nanti**"
 
 #for yins
 ayiin_1: "**[ᴋᴏɴᴛᴏʟ]** - Perintah Itu Dilarang Di Gc Ini"
-ayiin_2: "**[ᴋᴏɴᴛᴏʟ]** - Tidak dapat menyamar sebagai Developer 𝗜𝗫𝗔𝗟𝗟-Userbot"
+ayiin_2: "**[ᴋᴏɴᴛᴏʟ]** - Tidak dapat menyamar sebagai Developer 𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot"
 ayiin_3: "**Berhasil clone BLUE**"
 
 # admintools
@@ -62,16 +62,16 @@ prom_2: "`Berhasil Dipromosikan!`"
 deot_1: "`Menurunkan...`"
 deot_2: "`Berhasil Diturunkan!`"
 band_1: "`Pemrosesan Larangan...`"
-band_2: "\\**#𝘽𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝘽𝙖𝙣𝙣𝙚𝙙 𝙐𝙨𝙚𝙧`\n**𝙍𝙚𝙖𝙨𝙤𝙣 :** `{}`\n**𝘽𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝗜𝗫𝗔𝗟𝗟-Userbot ✧**"
-band_3: "\\**#𝘽𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝘽𝙖𝙣𝙣𝙚𝙙 𝙐𝙨𝙚𝙧`\n**𝘽𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝗜𝗫𝗔𝗟𝗟-Userbot ✧**"
+band_2: "\\**#𝘽𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝘽𝙖𝙣𝙣𝙚𝙙 𝙐𝙨𝙚𝙧`\n**𝙍𝙚𝙖𝙨𝙤𝙣 :** `{}`\n**𝘽𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**"
+band_3: "\\**#𝘽𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝘽𝙖𝙣𝙣𝙚𝙙 𝙐𝙨𝙚𝙧`\n**𝘽𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**"
 band_4: "`Batalkan Larangan Berhasil Dilakukan!`"
 band_5: "`Sepertinya Terjadi KESALAHAN!`"
 mute_1: "**Tidak Bisa Membisukan Diri Sendiri..（>﹏<）**"
 mute_2: "**Gagal Membisukan, Karna dia adalah Pembuat Saya 🤪**"
 mute_3: "**Gagal Membisukan, Karna dia adalah admin suhu udara 🤪**"
-mute_4: "\\**#𝙈𝙪𝙩𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙈𝙪𝙩𝙚𝙙 𝙐𝙨𝙚𝙧`\n**𝙈𝙪𝙩𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝗜𝗫𝗔𝗟𝗟-Userbot ✧**"
-mute_5: "\\**#𝙈𝙪𝙩𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝙍𝙚𝙖𝙨𝙤𝙣 :** `{}`\n**𝙈𝙪𝙩𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝗜𝗫𝗔𝗟𝗟-Userbot ✧**"
-mute_6: "\\**#𝙈𝙪𝙩𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙈𝙪𝙩𝙚𝙙 𝙐𝙨𝙚𝙧`\n**𝙈𝙪𝙩𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝗜𝗫𝗔𝗟𝗟-Userbot ✧**"
+mute_4: "\\**#𝙈𝙪𝙩𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙈𝙪𝙩𝙚𝙙 𝙐𝙨𝙚𝙧`\n**𝙈𝙪𝙩𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**"
+mute_5: "\\**#𝙈𝙪𝙩𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝙍𝙚𝙖𝙨𝙤𝙣 :** `{}`\n**𝙈𝙪𝙩𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**"
+mute_6: "\\**#𝙈𝙪𝙩𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙈𝙪𝙩𝙚𝙙 𝙐𝙨𝙚𝙧`\n**𝙈𝙪𝙩𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**"
 mute_7: "**KESALAHAN!** `Pengguna Sudah Dibisukan.`"
 unmt_1: "**KESALAHAN! Pengguna Sudah Tidak Dibisukan.**"
 unmt_2: "**Berhasil Melakukan Unmute!**"
@@ -79,8 +79,8 @@ gmut_1: "**Gagal Membisukan Global, Karna dia adalah Pembuat Saya 🤪**"
 gmut_2: "**Gagal Membisukan Global, Karna dia adalah admin suhu udara 🤪**"
 gmut_3: "**Berhasil Membisukan Pengguna!**"
 gmut_4: "**KESALAHAN! Pengguna Sudah Dibisukan.**"
-gmut_5: "\\**#𝙂𝙈𝙪𝙩𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝙍𝙚𝙖𝙨𝙤𝙣 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝗜𝗫𝗔𝗟𝗟-Userbot ✧**"
-gmut_6: "\\**#𝙂𝙢𝙪𝙩𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿:** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙂𝙡𝙤𝙗𝙖𝙡 𝙈𝙪𝙩𝙚𝙙`\n**𝙂𝙢𝙪𝙩𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝗜𝗫𝗔𝗟𝗟-Userbot ✧**"
+gmut_5: "\\**#𝙂𝙈𝙪𝙩𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝙍𝙚𝙖𝙨𝙤𝙣 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**"
+gmut_6: "\\**#𝙂𝙢𝙪𝙩𝙚𝙙_𝙐𝙨𝙚𝙧**//\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿:** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙂𝙡𝙤𝙗𝙖𝙡 𝙈𝙪𝙩𝙚𝙙`\n**𝙂𝙢𝙪𝙩𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**"
 ungm_1: "**Membuka Global Mute Pengguna...**"
 ungm_2: "**KESALAHAN!** Pengguna Sudah Tidak Di Bisukan Global..."
 ungm_3: "**BERHASIL! Pengguna Sudah Tidak Dibisukan**"
@@ -302,7 +302,7 @@ fake_8: "**Nama belakang** : @{}\n"
 fake_9: "**Nama Pengguna: ** `Tidak memiliki nama pengguna!`\n"
 
 # fban tools
-fban_1: "**Kesalahan: Tindakan ini telah dicegah oleh protokol keamanan diri 𝗜𝗫𝗔𝗟𝗟-Userbot.**"
+fban_1: "**Kesalahan: Tindakan ini telah dicegah oleh protokol keamanan diri 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃.**"
 fban_2: "**Anda belum terhubung ke federasi mana pun!**"
 fban_3: "Gagal untuk fban di {}/{} feds.\n"
 fban_4: "Kesuksesan! Melakukan Fbanned di {} feds."
@@ -360,7 +360,7 @@ fun_1: "**Silahkan Masukan Kata!**"
 fun_2: "`Anda tidak dapat mengirim hasil sebaris dalam obrolan ini (disebabkan oleh SendInlineBotResultRequest)`"
 
 # gban tools
-gban_1: "**𝘽𝙖𝙣𝙣𝙚𝙙 𝙎𝙥𝙤𝙩𝙚𝙙**\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝘽𝙖𝙣𝙣𝙚𝙙 𝙄𝙣 𝙂𝙧𝙤𝙪𝙥`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 :** ✧ 𝗜𝗫𝗔𝗟𝗟-Userbot ✧"
+gban_1: "**𝘽𝙖𝙣𝙣𝙚𝙙 𝙎𝙥𝙤𝙩𝙚𝙙**\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝘽𝙖𝙣𝙣𝙚𝙙 𝙄𝙣 𝙂𝙧𝙤𝙪𝙥`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 :** ✧ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧"
 gban_2: "`Pemrosesan larangan global...`"
 gban_3: "`𖣘 Larangan Global Akan Aktif...`"
 gban_4: "**Maaf Telah Terjadi Kesalahan :(**"
@@ -368,11 +368,11 @@ gban_5: "**Apakah Anda Gila ?.. Dia Adalah Developer Kazu-Userbot 🤪**"
 gban_6: "**Apakah Anda Gila ?... Dia Adalah Admin dari @kazusupportgrp 🤪**"
 gban_7: "**\\#𝙂𝘽𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧//**\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙂𝙡𝙤𝙗𝙖𝙡 𝘽𝙖𝙣𝙣𝙚𝙙`"
 gban_8: "**Mohon Balas Ke Pesan Penggunanya**"
-gban_10: "**\\#𝙂𝘽𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧//**\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙂𝙡𝙤𝙗𝙖𝙡 𝘽𝙖𝙣𝙣𝙚𝙙`\n**𝙂𝙗𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝗜𝗫𝗔𝗟𝗟-Userbot ✧**"
+gban_10: "**\\#𝙂𝘽𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧//**\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙂𝙡𝙤𝙗𝙖𝙡 𝘽𝙖𝙣𝙣𝙚𝙙`\n**𝙂𝙗𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**"
 ungban_1: "`Membatalkan Perintah Larangan Global...`"
 ungban_2: "`Gagal Membatalkan Perintah Larangan Global...`"
-ungban_3: "`Gagal Membatalkan Perintah Larangan Global... Karena Dia Ada Di Daftar Hitam 𝗜𝗫𝗔𝗟𝗟-Userbot`"
-ungban_4: "**\\#𝙐𝙣𝙂𝙗𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧//**\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙐𝙣𝙂𝙡𝙤𝙗𝙖𝙡 𝘽𝙖𝙣𝙣𝙚𝙙`\n**𝙐𝙣𝙂𝙗𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝗜𝗫𝗔𝗟𝗟-Userbot ✧**"
+ungban_3: "`Gagal Membatalkan Perintah Larangan Global... Karena Dia Ada Di Daftar Hitam 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃`"
+ungban_4: "**\\#𝙐𝙣𝙂𝙗𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧//**\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙐𝙣𝙂𝙡𝙤𝙗𝙖𝙡 𝘽𝙖𝙣𝙣𝙚𝙙`\n**𝙐𝙣𝙂𝙗𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 : ✧ 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧**"
 
 # gcast tools
 gcast_1: "**Berikan Sebuah Pesan atau Reply**"
@@ -440,8 +440,8 @@ hzmt_3: "`Perintah Hazmat Diaktifkan, Sedang Memproses...`"
 hzmt_4: "`Mohon Maaf, GIF Tidak Bisa...`"
 
 # helper tools
-hlpr_1: "**Hai {} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{}help` Atau Bisa Minta Bantuan Ke:\n⍟ **Group Support :** [𝗜𝗫𝗔𝗟𝗟-Userbot](t.me/ixallsupport)\n⍟ **Channel 𝗜𝗫𝗔𝗟𝗟-Userbot :** [𝗜𝗫𝗔𝗟𝗟-Userbot](t.me/jasebixall)\n⍟ **Owner Repo :** [ixall](t.me/iJanda)\n⍟ **Repo :** [𝗜𝗫𝗔𝗟𝗟-Userbot](https://github.com/ixally/Kazu-Userbot)\n"
-hlpr_2: "**Daftar Lengkap Vars Dari 𝗜𝗫𝗔𝗟𝗟-Userbot:** [KLIK DISINI](https://telegra.ph/List-Variable-Heroku-Untuk-𝗜𝗫𝗔𝗟𝗟-Userbot-02-08)"
+hlpr_1: "**Hai {} Kalo Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `{}help` Atau Bisa Minta Bantuan Ke:\n⍟ **Group Support :** [𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](t.me/kazusupportgrp)\n⍟ **Channel Kazu :** [𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃](t.me/punyaionnibos)\n⍟ **Owner Repo :** [Kazu](t.me/disinikazu)\n⍟ **Repo :** [𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://github.com/ionmusic/Kazu-Userbot)\n"
+hlpr_2: "**Daftar Lengkap Vars Dari 𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃:** [KLIK DISINI](https://telegra.ph/List-Variable-Heroku-Untuk-𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃-02-08)"
 
 # hentai tools
 hentai_1: "**Maaf saya tidak bisa mendapatkan manga dari**"
@@ -534,12 +534,12 @@ memf_4: "**Tidak Dapat Mengurai Video ini.**"
 slbt_1: "`Saya mengantuk dan tertidur...`"
 slbt_2: "**Anda menyuruh bot untuk tidur selama** {}."
 slbt_3: "**Oke, Saya siap membantu mu**"
-shtdwn_1: "𝗦𝗵𝘂𝘁𝗱𝗼𝘄𝗻.\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝗜𝗫𝗔𝗟𝗟-Userbot berhasil di shutdown, deploy kembali di server anda jika ingin menghidupkan ulang."
-shtdwn_2: "𝗦𝗵𝘂𝘁𝗱𝗼𝘄𝗻.\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝗜𝗫𝗔𝗟𝗟-Userbot berhasil di shutdown. Terimakasih telah menggunakan bot ini."
-rstrt_1: "𝗥𝗲𝘀𝘁𝗮𝗿𝘁 𝗜𝗫𝗔𝗟𝗟-Userbot"
-rstrt_2: "𝗥𝗲𝘀𝘁𝗮𝗿𝘁.\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝗜𝗫𝗔𝗟𝗟-Userbot berhasil di restart, tunggu 2-3 menit untuk bot memulai kembali"
+shtdwn_1: "𝗦𝗵𝘂𝘁𝗱𝗼𝘄𝗻.\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot berhasil di shutdown, deploy kembali di server anda jika ingin menghidupkan ulang."
+shtdwn_2: "𝗦𝗵𝘂𝘁𝗱𝗼𝘄𝗻.\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot berhasil di shutdown. Terimakasih telah menggunakan bot ini."
+rstrt_1: "𝗥𝗲𝘀𝘁𝗮𝗿𝘁 𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot"
+rstrt_2: "𝗥𝗲𝘀𝘁𝗮𝗿𝘁.\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot berhasil di restart, tunggu 2-3 menit untuk bot memulai kembali"
 rdme_1: "**Berikut sesuatu untuk kamu baca:**\n\n✣ [Userbot Repo](https://github.com/ionmusic/Kazu-Userbot/blob/Kazu-Userbot/README.md)\n✣ [Video Tutorial](https://youtu.be/tTDaPKsGC1I)\n✣ [List Variabel Heroku untuk Kazu-Userbot](https://telegra.ph/List-Variabel-Heroku-untuk-Man-Userbot-09-22)\n✣ [Setup Guide - Basic](https://mrismanaziz.medium.com/cara-memasang-userbot-telegram-repo-man-userbot-deploy-di-heroku-c56d1f8b5537)\n✣ [Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
-repo_1: "𝗜𝗫𝗔𝗟𝗟-Userbot.\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝗦𝘂𝗽𝗽𝗼𝗿𝘁 : [𝗕𝗟𝗨𝗘](https://t.me/proofniyeee)"
+repo_1: "𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot.\n━━━━━━━━━━━━━━━━━━━━━━━━━\n𝗦𝘂𝗽𝗽𝗼𝗿𝘁 : [𝗕𝗟𝗨𝗘](https://t.me/proofniyeee)"
 raw_1: "**Periksa log userbot untuk data pesan yang didekodekan !!`"
 raw_2: "**Inilah data pesan yang didecodekan !!**"
 rvrse_1: "`Gambar berhasil diunggah ke Google. Mungkin.`\n`Mengurai sumber sekarang. Mungkin.`"
@@ -607,7 +607,7 @@ pdf_3: "**ERROR: @office2pdf_bot tidak merespon, coba lagi nanti**"
 pdf_4: "**Mohon Reply ke teks apa pun**"
 
 # pmpermit tools
-prmt_1: "𝗣𝗲𝘀𝗮𝗻 𝗼𝘁𝗼𝗺𝗮𝘁𝗶𝘀.\n━━━━━━━━━━━━━━━━━━━━━━━━━\nIni adalah pesan otomatis dari 𝗜𝗫𝗔𝗟𝗟-Userbot. Spam 5x di chat ini akan otomatis di block oleh bot sebelum disetujui oleh pemilik."
+prmt_1: "𝗣𝗲𝘀𝗮𝗻 𝗼𝘁𝗼𝗺𝗮𝘁𝗶𝘀.\n━━━━━━━━━━━━━━━━━━━━━━━━━\nIni adalah pesan otomatis dari 𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot. Spam 5x di chat ini akan otomatis di block oleh bot sebelum disetujui oleh pemilik."
 prmt_2: "𝗣𝗲𝗿𝗶𝗻𝗴𝗮𝘁𝗮𝗻.\n━━━━━━━━━━━━━━━━━━━━━━━━━\nMaaf Anda Diblokir karna melakukan spam."
 prmt_3: "**Terjadi Error Saat Menghitung Pesan pribadi, Mohon Restart Bot!**"
 prmt_4: "Gagal menghitung PM yang diterima"
@@ -882,23 +882,23 @@ upd_1: "Memeriksa pembaruan, harap tunggu...."
 upd_2: "Oops.. Pembaruan tidak dapat dilanjutkan karena beberapa masalah.\n\n**LOGTRACE:**\n"
 upd_3: "𝗣𝗲𝗺𝗯𝗮𝗿𝘂𝗮𝗻 𝗙𝗶𝘁𝘂𝗿.\n━━━━━━━━━━━━━━━━━━━━━━━━━\nPembaruan:\n{}\n\n"
 upd_4: "Changelog terlalu besar, dikirim sebagai file."
-upd_5: "{}\nKredensial Heroku tidak valid untuk deploy 𝗜𝗫𝗔𝗟𝗟-Userbot dyno"
+upd_5: "{}\nKredensial Heroku tidak valid untuk deploy 𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot dyno"
 upd_6: "[HEROKU]: Harap Tambahkan Variabel`HEROKU_APP_NAME` untuk deploy perubahan terbaru dari Userbot."
 upd_7: "{}\n**Terjadi Kesalahan Di Log:**\n`{}`"
 upd_8: "**Pembaruan Gagal!** `Dibatalkan karena ada beberapa kesalahan.`"
-upd_9: "**✧ 𝗜𝗫𝗔𝗟𝗟-Userbot ✧** `Berhasil Di {} Userbot bisa di gunakan kembali.`"
+upd_9: "**✧ 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ✧** `Berhasil Di {} Userbot bisa di gunakan kembali.`"
 upd_10: "{}\n**Kegagalan awal!** `{}`"
 upd_11: "**Sayangnya, Directory {} Tampaknya Bukan Dari Repo. Tapi Kita Bisa Memperbarui Paksa Userbot Menggunakan** `{}update deploy`"
 upd_12: "**[HEROKU]: Harap Tambahkan Variabel** `HEROKU_API_KEY`"
-upd_13: "𝗜𝗫𝗔𝗟𝗟-Userbot Sudah Versi Terbaru"
-upd_14: "[HEROKU]: Update Deploy 𝗜𝗫𝗔𝗟𝗟-Userbot Sedang Dalam Proses..."
+upd_13: "𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot Sudah Versi Terbaru"
+upd_14: "[HEROKU]: Update Deploy 𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot Sedang Dalam Proses..."
 upd_15: "**Perfoming a quick update, please wait...**"
 upd_16: "**Sinkronisasi Paksa Ke Kode Userbot Terbaru, Harap Tunggu...**"
-upd_17: "Ketik `{}update deploy` Untuk Mengupdate 𝗜𝗫𝗔𝗟𝗟-Userbot"
+upd_17: "Ketik `{}update deploy` Untuk Mengupdate 𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot"
 upd_18: "**Quick update telah dinonaktifkan untuk pembaruan ini. Gunakan** `{}update deploy` **sebagai gantinya.**"
 upd_19: "{}\n**Direktori** `{}` **Tidak Dapat Di Temukan.**"
-upd_20: "**[•]** - Proses Update\n𝗜𝗫𝗔𝗟𝗟-Userbot : `{}`"
-upd_21: "**[•]** - Proses Update\n𝗜𝗫𝗔𝗟𝗟-Userbot : `Menginstall Pembaruan...`"
+upd_20: "**[•]** - Proses Update\n𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot : `{}`"
+upd_21: "**[•]** - Proses Update\n𝗕𝗟𝗨𝗘𝗙𝗟𝗢𝗬𝗗-Userbot : `Menginstall Pembaruan...`"
 
 # upload_download tools
 updo_1: "Berhasil diunduh ke `{}`!!!"
@@ -990,8 +990,8 @@ yicpl_2: "**[ᴇʀʀᴏʀ]** Maaf Tod Gagal Dikarenakan Lu Jomblo..."
 # yiinsimg tools
 yimg_1: "`Sedang Menyiapkan Media...`"
 yimg_2: "`Mohon Masukkan Yang Bener...`"
-yimg_3: "⍟ __Sketsa Hasilkan oleh 𝗜𝗫𝗔𝗟𝗟-Userbot__ ⍟"
-yimg_4: "⍟ __Pixelator Dihasilkan oleh 𝗜𝗫𝗔𝗟𝗟-Userbot__ ⍟"
+yimg_3: "⍟ __Sketsa Hasilkan oleh 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃__ ⍟"
+yimg_4: "⍟ __Pixelator Dihasilkan oleh 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃__ ⍟"
 
 # yiinstod tools
 tod_1: "    __Truth Or Dare ???__\n\n__Didapatkan Secara Acak__\n**      »» {} ««**"
@@ -1007,87 +1007,8 @@ lang_3: "Menu Bahasa Telah Di Tutup."
 lang_4: "❏ Silahkan Pilih Untuk Membuat String Session Anda\n╭╼┅━━━━━╍━━━━━┅╾\n├▹ Bot Untuk Membuat di bot [kazu_stringbot]\n├▹ Replit Untuk Membuat Di Web [Ayiin]\n╰╼┅━━━━━╍━━━━━┅╾"
 
 # yiinstoxic tools
-yitxc_1: "**GILA COK IXALL GANTENG BANGET KECE BADAI**"
-yitxc_2: "**1 JAM = 60 MENIT = 3600 DETIK**\n\n**kalo pake jeda 5 detik dengan durasi 1 jam:**\nberarti dalam 1 menit menghasilkan 12 bbc\n1 menit = 12 bbc\n                = 12 × 60\n                = 720\n\njadi kalo pake jeda 5 detik dengan durasi 1 jam,\nmenggunakan .delayspam 5 720 list sebar\n\n
-**kalo pake jeda 10 detik dengan durasi 1 jam:**\n
-berarti dalam 1 menit menghasilkan 6 bbc,
-\n1 menit = 6 bbc 
-\n                 = 6 × 60
-\n                 = 360
-
-\njadi kalo pake jeda 10 detik dengan durasi 1 jam,
-\nmenggunakan .delayspam 10 360 list sebar
-\n\n**kalo pake jeda 15 detik dengan durasi 1 jam :**
-\nberarti dalam 1 menit menghasilkan 4 bbc,
-\n1 menit = 4 bbc
-\n                = 4 × 60
-\n                = 240
-
-\njadi kalo pake jeda 15 detik dengan durasi 1 jam,
-\nmenggunakan .delayspam 15 240 list sebar
-\n\n**kalo pake jeda 20 detik dengan durasi 1 jam :**
-\nberarti dalam 1 menit menghasilkan 3 bbc,
-\n1 menit = 3 bbc
-\n                = 3 × 60
-\n                = 180
-
-\njadi kalo pake jeda 20 detik dengan durasi 1 jam,
-\nmenggunakan .delayspam 20 180 list sebar
-\n\n**kalo pake jeda 25 detik dengan durasi 1 jam :**
-\nberarti dalam 1 jam menghasilkan 144 bbc
-\n1 jam = 3600 detik
-\n            = 3600 ÷ 25
-\n            = 144
-
-\njadi kalo pake jeda 25 detik dengan durasi 1 jam,
-\nmenggunakan .delayspam 25 144 list sebar
-\n\n**kalo pake jeda 30 detik dengan durasi 1 jam :**
-\nberarti dalam 1 menit menghasilkan 2 bbc,
-\n1 menit = 2 bbc
-\n                = 2 × 60
-\n                = 120
-
-\njadi kalo pake jeda 30 detik dengan durasi 1 jam,
-\nmenggunakan .delayspam 30 120 list sebar
-\n\n**kalo pake jeda 40 detik dengan durasi 1 jam :**
-\nberarti dalam 1 jam menghasilkan 90 bbc
-\n1 jam = 3600 detik
-\n            = 3600 ÷ 40
-\n            = 90
-
-\n\njadi kalo pake jeda 40 detik dengan durasi 1 jam,
-\nmenggunakan .delayspam 40 90 list sebar
-\n\n**kalo pake jeda 45 detik dengan durasi 1 jam :**
-\nberarti dalam 1 jam menghasilkan 85 bbc
-\n1 jam = 3600 detik
-\n            = 3600 ÷ 45
-\n            = 85
-
-\njadi kalo pake jeda 45 detik dengan durasi 1 jam,
-\nmenggunakan .delayspam 45 85 list sebar
-\n\n**kalo pake jeda 50 detik dengan durasi 1 jam :**
-\nberarti dalam 1 jam menghasilkan 72 bbc
-\n 11 jam = 3600 detik
-\n            = 3600 ÷ 50
-\n            = 72
-
-\n\jadi kalo pake jeda 50 detik dengan durasi 1 jam,
-\nmenggunakan .delayspam 50 72 list sebar
-\n\n**kalo pake jeda 60 detik dengan durasi 1 jam :**
-\nberarti dalam 1 menit menghasilkan 1 bbc,
-\n1 menit = 1 bbc
-\n                = 1 × 60
-\n                = 60
-
-\njadi kalo pake jeda 60 detik dengan durasi 1 jam,
-\n\nmenggunakan .delayspam 60 60 list sebar
-
-\nbang kenapa gada jeda 35 detik & 55 detkk?
-\nkalo jeda segitu dalam 1 jam hasilnya koma/ga sesuai sejam jadinya gada yaa.
-
-\n\nkalo kalian mau pake durasi lebih dari 1 jam tinggal di kali aja, contoh pake jeda 60 detik dengan durasi 2 jam
-
-\nberarti kalian pake .delayspam 60 120**"
+yitxc_1: "**BACOT NGENTOTTT!!BAPA LU SURUH RIBUT SAMA GUA**"
+yitxc_2: "**GAK USAH SOK KERAS GOBLOK!!KENCING MASIH BERDIRI AJA BELAGU**"
 yitxc_3: "**MUKA LU SEMUA KAYA KONTOL HAHAHAHA!!**"
 yitxc_4: "**KONTOL MASIH BENGKOK AJA BANGGA LU HAHAHAHA!!**"
 yitxc_5: "**KONTOL KONTOL APA YANG BESAR?KONTOL LU LAH HAHAHAHA!!**"
@@ -1341,4 +1262,4 @@ uzip_1: "`Membuat File Zip...`"
 rzip_1: "`Direktori tidak ditemukan`"
 rzip_2: "`Daftar pos dihapus`"
 
-# =================× 𝗜𝗫𝗔𝗟𝗟-Userbot ×================= #
+# =================× 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ×================= #
