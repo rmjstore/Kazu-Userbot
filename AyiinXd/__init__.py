@@ -173,7 +173,7 @@ SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
 GROUP = os.environ.get("GROUP", "ixallsupport")
-CHANNEL = os.environ.get("CHANNEL", "jasebixall")
+CHANNEL = os.environ.get("CHANNEL", "jasebxall")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -311,7 +311,7 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QGphc2ViaXhhbGw=="))[2:15]
+ch = str(b64decode("QGphc2VieGFsbA=="))[2:15]
 gc = str(b64decode("QGl4YWxsc3VwcG9ydA=="))[2:17]
 
 while 0 < 6:
