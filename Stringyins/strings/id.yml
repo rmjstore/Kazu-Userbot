@@ -3,7 +3,11 @@ asli: Indonesia
 
 penulis:
   - xall
-  
+
+# calculator
+calc_1: "**IXALL Inline Calculator**"
+calc_2: "Buka Kalkulator Lagi"
+
 # mager scroll
 dspamfw_1: "Berhasil melakukan delay spam forward di chat {} sebanyak {} kali. Pesan yang diteruskan: {}"
 dspamfw_2: "Berhasil melakukan delay spam forward di grup {} (ID: {}) sebanyak {} kali. Pesan yang diteruskan: {}"
