@@ -131,8 +131,8 @@ async def autobot():
             sys.exit(1)
     filogo = random.choice(
           [
-              "https://telegra.ph/file/b9db32457eba4e42e70f7.jpg", 
-              "https://telegra.ph/file/b9db32457eba4e42e70f7.jpg"
+              "https://telegra.ph/file/b17248930f58bbdaf2e23.jpg", 
+              "https://telegra.ph/file/c1dc716f2e0b059efb39d.jpg"
           ]
     )
     await bot.send_message(bf, username)
