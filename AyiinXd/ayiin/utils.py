@@ -55,7 +55,7 @@ async def autopilot():
         r = await bot(
             CreateChannelRequest(
                 title="logs. -𝗜𝗫𝗔𝗟𝗟",
-                about="support channel @jasebxall",
+                about="bot dan group yang sudah dibuat tolong untuk tidak menghapusnya.",
                 megagroup=True,
             ),
         )
