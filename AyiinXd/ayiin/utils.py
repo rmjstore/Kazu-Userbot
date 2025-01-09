@@ -170,7 +170,7 @@ async def autobot():
             await bot.send_message(bf, f"@{username}")
             await asyncio.sleep(1)
             await bot.send_message(
-                bf, f"made with love"
+                bf, f"is there anything I can assist you with? Let me know, I’m here to help!"
             )
             await bot.send_message(
                 BOTLOG_CHATID,
@@ -214,7 +214,7 @@ async def autobot():
         await bot.send_message(bf, f"@{username}")
         await asyncio.sleep(1)
         await bot.send_message(
-            bf, f"made with love"
+            bf, f"is there anything I can assist you with? Let me know, I’m here to help!"
         )
         await bot.send_message(
             BOTLOG_CHATID,
