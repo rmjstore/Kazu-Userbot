@@ -15,7 +15,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di @stringbluebot",
+      "description": "Dapatkan String Session di @strgen_bot",
       "required": true
     },
     "HEROKU_APP_NAME": {
