@@ -85,8 +85,8 @@ ungm_1: "**Membuka Global Mute Pengguna...**"
 ungm_2: "**KESALAHAN!** Pengguna Sudah Tidak Di Bisukan Global..."
 ungm_3: "**BERHASIL! Pengguna Sudah Tidak Dibisukan**"
 zomb_1: "**Grup Bersih, Tidak Menemukan Akun Terhapus.**"
-zomb_2: "`Mencari Akun Depresi...`"
-zomb_3: "**Menemukan** `{}` **Akun Depresi/Terhapus/Zombie Dalam Grup Ini,**\n**Bersihkan Itu Menggunakan Perintah** `{}zombies clean`"
+zomb_2: "`Mencari Akun Terhapus...`"
+zomb_3: "**Menemukan** `{}` **Akun Terhapus Dalam Grup Ini,**\n**Bersihkan Itu Menggunakan Perintah** `{}zombies clean`"
 zomb_4: "**Maaf Kamu Bukan Admin!**"
 zomb_5: "`Menghapus Akun Depresi...`"
 zomb_6: "`Tidak Memiliki Izin Banned Dalam Grup Ini`"
@@ -371,7 +371,7 @@ gban_8: "**Mohon Balas Ke Pesan Penggunanya**"
 gban_10: "**\\#𝙂𝘽𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧//**\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙂𝙡𝙤𝙗𝙖𝙡 𝘽𝙖𝙣𝙣𝙚𝙙`\n**𝙂𝙗𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 :𝗜𝗫𝗔𝗟𝗟-𝗨𝘀𝗲𝗿𝗯𝗼𝘁**"
 ungban_1: "`Membatalkan Perintah Larangan Global...`"
 ungban_2: "`Gagal Membatalkan Perintah Larangan Global...`"
-ungban_3: "`Gagal Membatalkan Perintah Larangan Global... Karena Dia Ada Di Daftar Hitam 𝙺𝙰𝚉𝚄-𝚄𝚂𝙴𝚁𝙱𝙾𝚃`"
+ungban_3: "`Gagal Membatalkan Perintah Larangan Global... Karena Dia Ada Di Daftar Hitam 𝗜𝗫𝗔𝗟𝗟-𝗨𝘀𝗲𝗿𝗯𝗼𝘁`"
 ungban_4: "**\\#𝙐𝙣𝙂𝙗𝙖𝙣𝙣𝙚𝙙_𝙐𝙨𝙚𝙧//**\n\n**𝙁𝙞𝙧𝙨𝙩 𝙉𝙖𝙢𝙚 :** [{}](tg://user?id={})\n**𝙐𝙨𝙚𝙧 𝙄𝘿 :** `{}`\n**𝘼𝙘𝙩𝙞𝙤𝙣 :** `𝙐𝙣𝙂𝙡𝙤𝙗𝙖𝙡 𝘽𝙖𝙣𝙣𝙚𝙙`\n**𝙐𝙣𝙂𝙗𝙖𝙣𝙣𝙚𝙙 𝘽𝙮 :** `{}`\n**𝙋𝙤𝙬𝙚𝙧𝙚𝙙 𝘽𝙮 :𝗜𝗫𝗔𝗟𝗟-𝗨𝘀𝗲𝗿𝗯𝗼𝘁**"
 
 # gcast tools
@@ -847,7 +847,7 @@ tgph_2: "**Berhasil diupload ke** [telegra.ph](https://telegra.ph{})"
 tgph_3: "**Mohon Balas Ke Pesan, Untuk Mendapatkan Link Telegraph Permanen.**"
 
 # tempmail tools
-tempmail_1: "**KAZU TEMPMAIL** ~ `{}`\n\n[KLIK DISINI UNTUK VERIFIKASI]({})"
+tempmail_1: "**XALL TEMPMAIL** ~ `{}`\n\n[KLIK DISINI UNTUK VERIFIKASI]({})"
 tempmail_2: "`Mohon Maaf, Silahkan Buka` @TempMailBot `Lalu Tekan Start dan Coba Lagi.`"
 
 # tiktok tools
