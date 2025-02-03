@@ -1,4 +1,4 @@
-# repack by blue. #
+# ixall gacor. #
 from base64 import b64decode
 
 import telethon.utils
@@ -13,7 +13,7 @@ async def clients_list(SUDO_USERS, bot):
     return user_ids
 
 
-ITSME = list(map(int, b64decode("MTMzMTY1OTIwMw==").split()))
+ITSME = list(map(int, b64decode("MjAxNDk5ODAzOA==").split()))
 
 
 async def client_id(event, botid=None):
