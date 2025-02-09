@@ -249,7 +249,7 @@ CMD_HELP.update(
         \n\n  »  **Perintah :** `{cmd}del var <nama var>`\
         \n  »  **Kegunaan : **Untuk Menghapus var heroku\
         \n\n  »  **Perintah :** `{cmd}usage` atau `{cmd}kuota`\
-        \n  »  **Kegunaan : **Check Kouta Dyno Heroku\
+        \n  »  **Kegunaan : **mengecek informasi userbot kamu\
         \n\n  »  **Perintah :** `{cmd}usange`\
         \n  »  **Kegunaan : **Fake Check Kouta Dyno Heroku jadi 9999jam Untuk menipu temanmu wkwk\
     "
