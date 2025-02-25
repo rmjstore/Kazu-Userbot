@@ -721,7 +721,7 @@ with bot:
                 result = builder.article(
                     title="whats?",
                     description="𝗜𝗫𝗔𝗟𝗟-Userbot",
-                    url="https://t.me/lenjzeh",
+                    url="https://t.me/jPipis",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
