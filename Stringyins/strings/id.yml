@@ -463,7 +463,7 @@ heroku_12: "**Silahkan Tambahkan Var** `HEROKU_APP_NAME` **dan** `HEROKU_API_KEY
 heroku_13: "`Sedang Proses, Mohon Tunggu Di Group Logs Anda...`"
 heroku_14: "**Berhasil Menambahkan Config Var**"
 usage_1: "**Gagal Mendapatkan Informasi Userbot**"
-usage_2: "⍟ **Informasi Userbot Anda**\n╔════════════════════╗\n ➠ **Penggunaan Userbot** `{}` :\n     •  `{}`**Jam**  `{}`**Menit** **|**  [`{}`**%**]\n◖════════════════════◗\n ➠ **Sisa Durasi Userbot Bulan Ini** :\n     •  `{}`**Jam**  `{}`**Menit** **|**  [`{}`**%**]\n╚════════════════════╝\n⍟ **Sisa Durasi Userbot** `{}` **Hari Lagi**"
+usage_2: "⍟ **Informasi Userbot Anda**\n╔════════════════════╗\n ➠ **Penggunaan Userbot** `{}` :\n     •  `{uptime}` [`{}`**%**]\n◖════════════════════◗\n ➠ **Sisa Durasi Userbot Bulan Ini** :\n     •  `{}`**Jam**  `{}`**Menit** **|**  [`{}`**%**]\n╚════════════════════╝\n⍟ **Sisa Durasi Userbot** `{31}` **Hari Lagi**"
 usange_1: "⍟ **Informasi Dyno Heroku Anda**\n╔════════════════════╗\n ➠ **Penggunaan Dyno** `{}` :\n     •  `0`**Jam**  `0`**Menit**  **|**  [`0`**%**]\n◖════════════════════◗\n ➠ **Sisa Kuota Dyno  Bulan Ini** :\n     •  `1000`**Jam**  `0`**Menit** **|**  [`100`**%**]\n╚════════════════════╝\n"
 logs_1: "**⍟ Ini Logs Heroku Anda :**"
 logs_2: "**Sedang Mengambil Logs Heroku**"
