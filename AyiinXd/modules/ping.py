@@ -55,9 +55,10 @@ async def _(ping):
     user = await ping.client.get_me()
     sleep(3)
     await ping.reply(
-        f"ping : `%sms`\n"
-        f"uptime : `{uptime}`" % (duration)
-        )
+        f"私 𝗽𝗶𝗻𝗴 : `%sms`\n"
+        f"さ 𝘂𝗽𝘁𝗶𝗺𝗲 : `{uptime}` % (duration) \n"
+        f"ふ 𝗼𝘄𝗻𝗲𝗿 : [{user.first_name}](tg://user?id={user.id})" % (duration)
+    )
 
 
 @ayiin_cmd(pattern="xping$")
