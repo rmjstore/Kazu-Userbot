@@ -55,9 +55,9 @@ async def _(ping):
     user = await ping.client.get_me()
     sleep(3)
     await ping.reply(
-        f"私 𝗽𝗶𝗻𝗴 : `%sms`\n"
-        f"さ 𝘂𝗽𝘁𝗶𝗺𝗲 : `{uptime}` % (duration) \n"
-        f"ふ 𝗼𝘄𝗻𝗲𝗿 : [{user.first_name}](tg://user?id={user.id})" % (duration)
+        f"私 **ping :** `%sms`\n"
+        f"さ **uptime :** `{uptime}` \n"
+        f"ふ **owner :** [{user.first_name}](tg://user?id={user.id})" % (duration)
     )
 
 
