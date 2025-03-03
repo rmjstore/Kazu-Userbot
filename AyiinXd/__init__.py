@@ -85,7 +85,7 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/ixally/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/rmjst/Kazu-Userbot/Main/app.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
@@ -300,7 +300,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/ixally/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/rmjst/Kazu-Userbot/Main/app.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -317,7 +317,7 @@ gc = str(b64decode("QGl4YWxsc3VwcG9ydA=="))[2:17]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/ixally/deps/main/DEVS.json"
+        "https://raw.githubusercontent.com/rmjst/Kazu-Userbot/Main/app.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
