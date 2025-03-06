@@ -58,8 +58,8 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="botlogs.-𝗟𝘰𝘦𝘻𝘴𝘬𝘺-Userbot",
-                about="support channel @loezsky",
+                title="botlogs.-rmj-Userbot",
+                about="support channel @roemahjaseb",
                 megagroup=True,
             ),
         )
@@ -184,7 +184,7 @@ async def autobot():
                 f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
             await bot.send_message(
                 BOTLOG_CHATID,
-                "**restarting bot. support @loezsky**",
+                "**restarting bot. support @rmj**",
             )
             heroku_var["BOT_TOKEN"] = token
             heroku_var["BOT_USERNAME"] = f"@{username}"
