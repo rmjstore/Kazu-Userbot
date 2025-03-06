@@ -54,7 +54,7 @@ async def autopilot():
     try:
         r = await bot(
             CreateChannelRequest(
-                title="logs. -𝗜𝗫𝗔𝗟𝗟",
+                title="logs. -rmj",
                 about="bot dan group yang sudah dibuat tolong untuk tidak menghapusnya.",
                 megagroup=True,
             ),
@@ -102,7 +102,7 @@ async def autobot():
     if who.username:
         username = f"{who.username}_bot"
     else:
-        username = f"ixall{(str(who.id))[5:]}bot"
+        username = f"rmj{(str(who.id))[5:]}bot"
     bf = "@BotFather"
     await bot(UnblockRequest(bf))
     await bot.send_message(bf, "/cancel")
@@ -224,7 +224,7 @@ async def autobot():
             f"BERHASIL MEMBUAT ASSISTANT BOT KAMU DENGAN USERNAME @{username}")
         await bot.send_message(
             BOTLOG_CHATID,
-            "**restarting bot. renewal userbot just chat @lenjzeh!**",
+            "**restarting bot. renewal userbot just chat @cinamond!**",
         )
         heroku_var["BOT_TOKEN"] = token
         heroku_var["BOT_USERNAME"] = f"@{username}"
