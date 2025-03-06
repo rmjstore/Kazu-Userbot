@@ -223,7 +223,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "im alive, what's your command?")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗟𝘰𝘦𝘻𝘴𝘬𝘺-Userbot")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "rmj-Userbot")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✨")
@@ -313,9 +313,8 @@ while 0 < 6:
     break
 
 del _BLACKLIST
-
-ch = str(b64decode("QGxvZXpza3k="))[2:15]
-gc = str(b64decode("QGxwbWxva2FscnB3"))[2:17]
+   ch = str(b64decode("QHJvZW1haGphc2Vi"))[2:15]
+   gc = str(b64decode("QHJvZW1haGphc2Vic3VwcG9ydA=="))[2:23]
 
 while 0 < 6:
     _WHITELIST = get(
@@ -366,7 +365,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**𝗟𝘰𝘦𝘻𝘴𝘬𝘺-Userbot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**rmj-Userbot v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -567,7 +566,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**𝗟𝘰𝘦𝘻𝘴𝘬𝘺-Userbot Menu**\n\n Based on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner : {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**"
+                text = f"**rmj-Userbot Menu**\n\n Based on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner : {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -589,7 +588,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**𝗟𝘰𝘦𝘻𝘴𝘬𝘺-Userbot**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
+                    text=f"**rmj-Userbot**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -710,12 +709,12 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**𝗟𝘰𝘦𝘻𝘴𝘬𝘺-Userbot**\n whats wrong???",
+                    text=f"**rmj-Userbot**\n whats wrong???",
                     buttons=[
                         [
                             custom.Button.url(
                                 "support",
-                                "https://t.me/loezsky"),
+                                "https://t.me/roemahjaseb"),
                             custom.Button.url(
                                 "repack by",
                                 "https://t.me/blque"),
