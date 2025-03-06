@@ -173,8 +173,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "ixallsupport")
-CHANNEL = os.environ.get("CHANNEL", "jasebxall")
+GROUP = os.environ.get("GROUP", "roemahjasebsupport")
+CHANNEL = os.environ.get("CHANNEL", "roemahjaseb")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -221,7 +221,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "im alive, what's your command?")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗜𝗫𝗔𝗟𝗟-Userbot")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "Rmj-Userbot")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✨")
@@ -333,7 +333,7 @@ del _WHITELIST
 if STRING_SESSION:
     session = StringSession(str(STRING_SESSION))
 else:
-    session = "Ixall-Userbot"
+    session = "rmj-Userbot"
 try:
     bot = TelegramClient(
         session=session,
@@ -364,7 +364,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**𝗜𝗫𝗔𝗟𝗟-Userbot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**Rmj-Userbot v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -573,7 +573,7 @@ with bot:
         # Buat tombol dan teks untuk menu
                 buttons = paginate_help(0, dugmeler, "helpme")
                 text = (
-                    f"**𝗜𝗫𝗔𝗟𝗟-Userbot Menu**\n\n"
+                    f"**rmj-Userbot Menu**\n\n"
                     f"**Based on:** {adB.name}\n"
                     f"**Deploy on:** •[{HOSTED_ON}]•\n"
                     f"**Owner:** {owner}\n"
@@ -606,7 +606,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**𝗜𝗫𝗔𝗟𝗟-Userbot**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
+                    text=f"**rmj-Userbot**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -720,22 +720,22 @@ with bot:
             else:
                 result = builder.article(
                     title="whats?",
-                    description="𝗜𝗫𝗔𝗟𝗟-Userbot",
-                    url="https://t.me/jPipis",
+                    description="rmj-Userbot",
+                    url="https://t.me/hatisemu",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
                         "image/jpeg",
                         []),
-                    text=f"𝗜𝗫𝗔𝗟𝗟-Userbot",
+                    text=f"rmj-Userbot",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Support",
-                                "https://t.me/ixallsupport"),
+                                "https://t.me/roemahjasebsupport"),
                             custom.Button.url(
                                 "Channel",
-                                "https://t.me/jasebxall"),
+                                "https://t.me/roemahjaseb"),
                         ],
                     ],
                     link_preview=False,
@@ -1094,4 +1094,4 @@ with bot:
 
     except BaseException:
         LOGS.info(
-            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @ijanda atau ke @ixallsupport. 𝗜𝗫𝗔𝗟𝗟-Userbot {BOT_VER}")
+            f"Jika mengalami error saat pemasangan silahkan klik save dipojok kanan bawah logs lalu hubungi @cinamond atau ke @roemahjasebsupport. rmj-Userbot {BOT_VER}")
