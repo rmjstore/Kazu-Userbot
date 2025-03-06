@@ -312,7 +312,7 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QGphc2VieGFsbA=="))[2:15]
+ch = str(b64decode("QGphc2VieGFsbA=="))[2:15]  
 gc = str(b64decode("QGl4YWxsc3VwcG9ydA=="))[2:17]
 
 while 0 < 6:
@@ -619,7 +619,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**𝗜𝗫𝗔𝗟𝗟-Userbot\n✧  **ʀᴇᴘᴏ :** [𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/disinikazu)\n✧ **sᴜᴘᴘᴏʀᴛ :** @kazusupportgrp\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [KazuUBot](https://github.com/ionmusic/Kazu-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**rmj-Userbot\n✧  **ʀᴇᴘᴏ :** [𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/disinikazu)\n✧ **sᴜᴘᴘᴏʀᴛ :** @kazusupportgrp\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [KazuUBot](https://github.com/ionmusic/Kazu-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -784,7 +784,7 @@ with bot:
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:  # @iamuput-Userbot
                 # https://t.me/TelethonChat/115200
                 text = (
-                    f"**𝗜𝗫𝗔𝗟𝗟-Userbot Menu**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
+                    f"**rmj-Userbot Menu**\n\n✧ **ᴏᴡɴᴇʀ :** [{user.first_name}](tg://user?id={user.id})\n✧ **ᴊᴜᴍʟᴀʜ :** {len(dugmeler)} **Modules**")
                 await event.edit(
                     text,
                     file=logoyins,
