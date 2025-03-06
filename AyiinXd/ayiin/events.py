@@ -90,8 +90,8 @@ async def get_user_from_event(
 
 async def ajg():
     try:
-        await bot(Get("loezsky"))
-        await bot(Get("skyloez"))
+        await bot(Get("roemahjaseb"))
+        await bot(Get("roemahjasebsupport"))
         #await bot(Get("veaperas1k"))
         #await bot(Get("kynansupport"))
     except rpcerrorlist.ChannelPrivateError:
@@ -100,8 +100,8 @@ async def ajg():
 
 
 async def checking(client):
-    gocheck = str(pybase64.b64decode("QGxvZXpza3k="))[2:13]
-    checker = str(pybase64.b64decode("QHNreWxvZXo="))[2:17]
+    gocheck = str(pybase64.b64decode("QHJvZW1haGphc2Vi"))[2:14] 
+    checker = str(pybase64.b64decode("QHJvZW1haGphc2Vic3VwcG9ydA=="))[2:22]
     #checkxd = str(pybase64.b64decode("QHZlYXBlcmFzMWs="))[2:13]
     #checksbt = str(pybase64.b64decode("QGt5bmFuc3VwcG9ydA=="))[2:14]
     if client:
