@@ -93,7 +93,7 @@ if CONFIG_CHECK := os.environ.get(
 
 while 0 < 6:
     _DEVS = get(
-        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
+        "https://raw.githubusercontent.com/rmjstore/Kazu-Userbot/Main/app.json"
     )
     if _DEVS.status_code != 200:
         if 0 != 5:
@@ -175,8 +175,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "lpmlokalrpw")
-CHANNEL = os.environ.get("CHANNEL", "loezsky")
+GROUP = os.environ.get("GROUP", "roemahjasebsupport")
+CHANNEL = os.environ.get("CHANNEL", "roemahjaseb")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -223,7 +223,7 @@ ALIVE_TEKS_CUSTOM = os.environ.get(
     "im alive, what's your command?")
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "𝗟𝘰𝘦𝘻𝘴𝘬𝘺-Userbot")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "rmj-Userbot")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✨")
@@ -302,7 +302,7 @@ BOT_USERNAME = os.environ.get("BOT_USERNAME", None)
 # Jangan di hapus Nanti ERROR
 while 0 < 6:
     _BLACKLIST = get(
-        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
+        "https://raw.githubusercontent.com/rmjstore/Kazu-Userbot/Main/app.json"
     )
     if _BLACKLIST.status_code != 200:
         if 0 != 5:
@@ -314,12 +314,12 @@ while 0 < 6:
 
 del _BLACKLIST
 
-ch = str(b64decode("QGxvZXpza3k="))[2:15]
-gc = str(b64decode("QGxwbWxva2FscnB3"))[2:17]
+ch = str(b64decode("QHJvZW1haGphc2Vi"))[2:15]
+gc = str(b64decode("QHJvZW1haGphc2Vic3VwcG9ydA=="))[2:23]
 
 while 0 < 6:
     _WHITELIST = get(
-        "https://raw.githubusercontent.com/ionmusic/layla/master/DEVS.json"
+        "https://raw.githubusercontent.com/rmjstore/Kazu-Userbot/Main/app.json"
     )
     if _WHITELIST.status_code != 200:
         if 0 != 5:
@@ -366,7 +366,7 @@ else:
 
 async def update_restart_msg(chat_id, msg_id):
     message = (
-        f"**𝗟𝘰𝘦𝘻𝘴𝘬𝘺-Userbot v`{BOT_VER}` is back up and running!**\n\n"
+        f"**rmj-Userbot v`{BOT_VER}` is back up and running!**\n\n"
         f"**Telethon:** `{vsc}`\n"
         f"**Python:** `{python_version()}`\n"
     )
@@ -567,7 +567,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid or event.query.user_id in SUDO_USERS:
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"**𝗟𝘰𝘦𝘻𝘴𝘬𝘺-Userbot Menu**\n\n Based on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner : {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**"
+                text = f"**roemahjaseb-Userbot Menu**\n\n Based on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner : {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**"
                 await event.edit(
                     text,
                     file=logoyins,
@@ -589,7 +589,7 @@ with bot:
                 result = await event.builder.photo(
                     file=logoyins,
                     link_preview=False,
-                    text=f"**𝗟𝘰𝘦𝘻𝘴𝘬𝘺-Userbot**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
+                    text=f"**roemahjaseb-Userbot**\n\n Bases on :** {adB.name}\n Deploy on :** •[{HOSTED_ON}]•\n Owner :** {user.first_name}\n Jumlah :** {len(dugmeler)} **Modules**",
                     buttons=main_help_button,
                 )
             elif query.startswith("repo"):
@@ -710,12 +710,12 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text=f"**𝗟𝘰𝘦𝘻𝘴𝘬𝘺-Userbot**\n whats wrong???",
+                    text=f"**roemahjaseb-Userbot**\n whats wrong???",
                     buttons=[
                         [
                             custom.Button.url(
                                 "support",
-                                "https://t.me/loezsky"),
+                                "https://t.me/roemahjaseb"),
                             custom.Button.url(
                                 "repack by",
                                 "https://t.me/blque"),
