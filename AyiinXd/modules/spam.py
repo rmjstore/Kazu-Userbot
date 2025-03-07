@@ -254,8 +254,8 @@ async def dlyspam(event):
     await spam_function(event, reply, xnxx, sleeptimem, sleeptimet, DelaySpam=True)
 
 
-@ayiin_cmd(pattern="delayspamfw ([\\s\\S]*)")
-async def dlyspamfw(event):
+@ayiin_cmd(pattern="jasebfw ([\\s\\S]*)")
+async def jsbfw(event):
     if event.chat_id in BLACKLIST_CHAT:
         return await event.edit(get_string("ayiin_1"))
     
@@ -263,12 +263,12 @@ async def dlyspamfw(event):
     try:
         sleeptimet = sleeptimem = float(input_str[0])  # waktu delay
     except Exception:
-        return await eod(event, get_string("dspam_1").format(cmd))
+        return await eod(event, get_string("jsbfw_1").format(cmd))
 
     try:
         counter = int(input_str[1])  # jumlah spam
     except Exception:
-        return await eod(event, get_string("dspam_1").format(cmd))
+        return await eod(event, get_string("jsbfw_1").format(cmd))
 
     # Mengambil link pesan channel publik
     channel_message_link = input_str[2]
