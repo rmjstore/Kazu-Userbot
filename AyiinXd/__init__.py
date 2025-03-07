@@ -175,8 +175,8 @@ CMD_HANDLER = os.environ.get("CMD_HANDLER") or "."
 SUDO_HANDLER = os.environ.get("SUDO_HANDLER", r"$")
 
 # Support
-GROUP = os.environ.get("GROUP", "lpmlokalrpw")
-CHANNEL = os.environ.get("CHANNEL", "loezsky")
+GROUP = os.environ.get("GROUP", "roemahjasebsupport")
+CHANNEL = os.environ.get("CHANNEL", "roemahjaseb")
 
 # Heroku Credentials for updater.
 HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
@@ -252,17 +252,17 @@ BOT_VER = os.environ.get("BOT_VER", "3.6.9")
 
 # Default .alive logo
 ALIVE_LOGO = (os.environ.get("ALIVE_LOGO")
-              or "https://telegra.ph/file/00b635e340db8b85be11b.jpg")
+              or "https://telegra.ph/file/62e6065830dd426a.jpg")
 
 INLINE_PIC = (os.environ.get("INLINE_PIC")
-              or "https://telegra.ph/file/00b635e340db8b85be11b.jpg")
+              or "https://telegra.ph/file/62e6065830dd426a.jpg")
 
 # Picture For VCPLUGIN
 PLAY_PIC = (os.environ.get("PLAY_PIC")
             or ".png")
 
 QUEUE_PIC = (os.environ.get("QUEUE_PIC")
-             or "https://telegra.ph/file/00b635e340db8b85be11b.jpg")
+             or "https://telegra.ph/file/62e6065830dd426a.jpg")
 
 DEFAULT = list(map(int, b64decode("NTA2MzA2MjQ5Mw==").split()))
 
@@ -463,8 +463,8 @@ with bot:
         logo = ALIVE_LOGO
         logoyins = random.choice(
                 [
-                    "https://telegra.ph/file/00b635e340db8b85be11b.jpg",
-                    "https://telegra.ph/file/00b635e340db8b85be11b.jpg",
+                    "https://telegra.ph/file/62e6065830dd426a.jpg",
+                    "https://telegra.ph/file/62e6065830dd426a.jpg",
                 ]
         )
         cmd = CMD_HANDLER
@@ -602,7 +602,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**𝗟𝘰𝘦𝘻𝘴𝘬𝘺-Userbot\n✧  **ʀᴇᴘᴏ :** [𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/disinikazu)\n✧ **sᴜᴘᴘᴏʀᴛ :** @kazusupportgrp\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [KazuUBot](https://github.com/ionmusic/Kazu-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="** rmj-Userbot\n✧  **ʀᴇᴘᴏ :** [𝙺𝙰𝚉𝚄 𝚄𝚂𝙴𝚁𝙱𝙾𝚃](https://t.me/disinikazu)\n✧ **sᴜᴘᴘᴏʀᴛ :** @kazusupportgrp\n✧ **ʀᴇᴘᴏsɪᴛᴏʀʏ :** [KazuUBot](https://github.com/ionmusic/Kazu-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -717,8 +717,8 @@ with bot:
                                 "support",
                                 "https://t.me/roemahjaseb"),
                             custom.Button.url(
-                                "repack by",
-                                "https://t.me/blque"),
+                                "owner",
+                                "https://t.me/cinamond"),
                         ],
                     ],
                     link_preview=False,
